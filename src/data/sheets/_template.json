@@ -1,0 +1,13 @@
+{
+  "id": "02",
+  "title": "新表 02 — 复制此文件并按原图顺序填入",
+  "source": "图片文件名或备注",
+  "categories": [
+    {
+      "category": "① Category Name",
+      "words": [
+        { "en": "example word", "ar": "مثال" }
+      ]
+    }
+  ]
+}

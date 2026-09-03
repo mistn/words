@@ -1,0 +1,83 @@
+{
+  "id": "01",
+  "title": "Sheet 01 — ① Arts / ② Cinema / ③ Education",
+  "source": "Source image 1:1 original order",
+  "categories": [
+    {
+      "category": "① Arts",
+      "words": [
+        { "en": "abstract art", "ar": "فن تجريدى" },
+        { "en": "ballet", "ar": "فن الباليه" },
+        { "en": "calligraphy", "ar": "فن الخط" },
+        { "en": "carpentry", "ar": "فن النجارة" },
+        { "en": "cinematography", "ar": "فن التصوير السينمائى" },
+        { "en": "embroidery", "ar": "فن التطريز" },
+        { "en": "etiquette", "ar": "فن الإتيكيت" },
+        { "en": "fine arts", "ar": "فنون جميلة" },
+        { "en": "graphics", "ar": "فن الجرافيك" },
+        { "en": "orthography", "ar": "علم الإملاء والتهجئة" },
+        { "en": "pantomime", "ar": "فن التمثيل الصامت" },
+        { "en": "photography", "ar": "فن التصوير" },
+        { "en": "sculpture", "ar": "فن النحت" },
+        { "en": "sponsorship", "ar": "رعاية" },
+        { "en": "stage", "ar": "خشبة المسرح" },
+        { "en": "studio", "ar": "استديو لتصوير الفيلم" },
+        { "en": "stuntman", "ar": "بديل الممثل (دوبلير)" },
+        { "en": "suspense", "ar": "تشويق" }
+      ]
+    },
+    {
+      "category": "② Cinema",
+      "words": [
+        { "en": "actor", "ar": "ممثل" },
+        { "en": "actress", "ar": "ممثلة" },
+        { "en": "award", "ar": "جائزة / يمنح جائزة" },
+        { "en": "casting", "ar": "اختيار الممثلين" },
+        { "en": "celebrities", "ar": "مشاهير" },
+        { "en": "censorship", "ar": "رقابة" },
+        { "en": "director", "ar": "مخرج" },
+        { "en": "location", "ar": "موقع تصوير" },
+        { "en": "location (= plateau)", "ar": "موقع تصوير" },
+        { "en": "movies", "ar": "أفلام" },
+        { "en": "producer", "ar": "منتج" },
+        { "en": "publicity", "ar": "شهرة / ذيوع" },
+        { "en": "scenario", "ar": "سيناريو" },
+        { "en": "scene", "ar": "مشهد" },
+        { "en": "serials", "ar": "مسلسلات" },
+        { "en": "shot", "ar": "لقطة فى فيلم" },
+        { "en": "sponsor", "ar": "راعى" }
+      ]
+    },
+    {
+      "category": "③ Education",
+      "words": [
+        { "en": "aware", "ar": "واع" },
+        { "en": "boarding school", "ar": "مدرسة داخلية" },
+        { "en": "brain drain", "ar": "هجرة العقول العلمية" },
+        { "en": "bringing up", "ar": "تنشئة" },
+        { "en": "bullying", "ar": "بلطجة" },
+        { "en": "concentration", "ar": "تركيز" },
+        { "en": "core", "ar": "لب / نواة" },
+        { "en": "corner stone", "ar": "حجر الزاوية" },
+        { "en": "creative", "ar": "مبدع" },
+        { "en": "cultural", "ar": "ثقافى" },
+        { "en": "curriculum", "ar": "منهج دراسى" },
+        { "en": "deterioration", "ar": "تخلف / تدهور" },
+        { "en": "educational", "ar": "تعليمى" },
+        { "en": "encyclopedia", "ar": "موسوعة" },
+        { "en": "evaluation", "ar": "تقويم" },
+        { "en": "faithfulness", "ar": "إخلاص" },
+        { "en": "generation", "ar": "جيل" },
+        { "en": "gestures", "ar": "إيماءات / إيحاءات" },
+        { "en": "heritage", "ar": "تراث" },
+        { "en": "inauguration", "ar": "إفتتاح" },
+        { "en": "innovation", "ar": "ابتكار" },
+        { "en": "kindergarten (KG)", "ar": "حضانة" },
+        { "en": "loyalty", "ar": "ولاء" },
+        { "en": "manners", "ar": "سلوكيات / أخلاق" },
+        { "en": "motives", "ar": "دوافع" },
+        { "en": "non-verbal", "ar": "غير لفظى" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Interactive English–Arabic Vocabulary",
+  "short_name": "Vocab",
+  "display": "standalone",
+  "background_color": "#f8f7f5",
+  "theme_color": "#f43f5e",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
