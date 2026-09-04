@@ -56,8 +56,8 @@ for (const s of sheets) { const g = groupOf(s); (grouped[g] ??= []).push(s); }
               ))}
             </select>
             <select id="voice-select" aria-label="Select British voice" class="rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium max-w-[200px]"><option>Loading voices…</option></select>
-            <button id="autoplay-btn" type="button" class="rounded-full border border-rose-200 bg-rose-50 hover:bg-rose-100 text-rose-700 px-4 py-2 text-sm font-medium">▶ Auto</button>
-            <button id="stop-btn" type="button" class="rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 px-4 py-2 text-sm font-medium">⏹ Stop</button>
+            <button id="autoplay-btn" type="button" class="inline-flex items-center gap-1.5 rounded-full border border-rose-200 bg-rose-50 hover:bg-rose-100 text-rose-700 px-4 py-2 text-sm font-medium"><span class="ic-play inline-flex"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M3 1.5v9l7-4.5z"/></svg></span><span class="ic-pause hidden"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><rect x="2.5" y="1.5" width="2.8" height="9" rx="1"/><rect x="6.7" y="1.5" width="2.8" height="9" rx="1"/></svg></span><span class="lbl">Auto</span></button>
+            <button id="stop-btn" type="button" class="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 px-4 py-2 text-sm font-medium"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true" class="text-slate-500"><rect x="1.5" y="1.5" width="9" height="9" rx="1.5"/></svg><span>Stop</span></button>
             <button id="prev-btn" type="button" title="Previous unit" class="rounded-full border border-slate-200 bg-white hover:bg-slate-50 px-3 py-2 text-sm font-medium">‹ Prev</button>
             <button id="next-btn" type="button" title="Next unit" class="rounded-full border border-slate-200 bg-white hover:bg-slate-50 px-3 py-2 text-sm font-medium">Next ›</button>
             <button id="focus-btn" type="button" title="Focus mode" class="rounded-full border border-slate-200 bg-slate-900 hover:bg-slate-700 text-white px-4 py-2 text-sm font-medium">⛶ Focus</button>
@@ -72,8 +72,8 @@ for (const s of sheets) { const g = groupOf(s); (grouped[g] ??= []).push(s); }
       <button id="fprev-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">‹ Prev</button>
       <span id="focus-title" class="min-w-0 flex-1 text-center font-bold text-sm md:text-base truncate"></span>
       <span id="focus-status" class="hidden md:inline text-xs text-white/60 min-w-[90px] text-right"></span>
-      <button id="fauto-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">▶ Auto</button>
-      <button id="fstop-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">⏹ Stop</button>
+      <button id="fauto-btn" type="button" class="inline-flex items-center gap-1.5 rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0"><span class="ic-play inline-flex"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M3 1.5v9l7-4.5z"/></svg></span><span class="ic-pause hidden"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><rect x="2.5" y="1.5" width="2.8" height="9" rx="1"/><rect x="6.7" y="1.5" width="2.8" height="9" rx="1"/></svg></span><span class="lbl">Auto</span></button>
+      <button id="fstop-btn" type="button" class="inline-flex items-center gap-1.5 rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0"><svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><rect x="1.5" y="1.5" width="9" height="9" rx="1.5"/></svg><span>Stop</span></button>
       <button id="fnext-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">Next ›</button>
     </div>
 
@@ -143,7 +143,9 @@ for (const s of sheets) { const g = groupOf(s); (grouped[g] ??= []).push(s); }
         const b2 = document.getElementById('fauto-btn');
         [autoplayBtn, b2].forEach(b=>{
           if(!b) return;
-          b.textContent = autoplay ? '⏸ Pause' : '▶ Auto';
+          const lbl = b.querySelector('.lbl'); if(lbl) lbl.textContent = autoplay ? 'Pause' : 'Auto';
+          const p = b.querySelector('.ic-play'); if(p) p.classList.toggle('hidden', autoplay);
+          const pa = b.querySelector('.ic-pause'); if(pa) pa.classList.toggle('hidden', !autoplay);
           b.classList.toggle('bg-rose-500', autoplay);
           b.classList.toggle('text-white', autoplay);
           if(b !== autoplayBtn) b.classList.toggle('bg-white/10', !autoplay);
