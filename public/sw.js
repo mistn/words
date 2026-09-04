@@ -1,5 +1,5 @@
-const VERSION = 'v1';
-const CORE = ['/', '/about/', '/favicon.svg', '/manifest.json'];
+const VERSION = 'v2';
+const CORE = ['/', '/about/', '/favicon.svg', '/icon-192.png', '/icon-512.png', '/manifest.json'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
