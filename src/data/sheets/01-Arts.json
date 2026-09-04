@@ -1,0 +1,64 @@
+{
+  "id": "01-Arts",
+  "title": "① Arts",
+  "source": "Toppers Dictionary Part 1",
+  "categories": [
+    {
+      "category": "① Arts",
+      "words": [
+        {
+          "en": "abstract art",
+          "ar": "فن تجريدى"
+        },
+        {
+          "en": "ballet",
+          "ar": "فن الباليه"
+        },
+        {
+          "en": "calligraphy",
+          "ar": "فن الخط"
+        },
+        {
+          "en": "carpentry",
+          "ar": "فن النجارة"
+        },
+        {
+          "en": "cinematography",
+          "ar": "فن التصوير السينمائى"
+        },
+        {
+          "en": "embroidery",
+          "ar": "فن التطريز"
+        },
+        {
+          "en": "etiquette",
+          "ar": "فن الإتيكيت"
+        },
+        {
+          "en": "fine arts",
+          "ar": "فنون جميلة"
+        },
+        {
+          "en": "graphics",
+          "ar": "فن الجرافيك"
+        },
+        {
+          "en": "orthography",
+          "ar": "علم الإملاء والتهجئة"
+        },
+        {
+          "en": "pantomime",
+          "ar": "فن التمثيل الصامت"
+        },
+        {
+          "en": "photography",
+          "ar": "فن التصوير"
+        },
+        {
+          "en": "sculpture",
+          "ar": "فن النحت"
+        }
+      ]
+    }
+  ]
+}

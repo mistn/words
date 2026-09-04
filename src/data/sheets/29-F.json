@@ -1,0 +1,392 @@
+{
+  "id": "29-F",
+  "title": "F",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "F",
+      "words": [
+        {
+          "en": "fable",
+          "ar": "الخرافة"
+        },
+        {
+          "en": "face",
+          "ar": "يواجه"
+        },
+        {
+          "en": "face to face",
+          "ar": "وجهًا لوجه"
+        },
+        {
+          "en": "facilities",
+          "ar": "تسهيلات"
+        },
+        {
+          "en": "factions",
+          "ar": "طوائف / زمرة / جماعات"
+        },
+        {
+          "en": "factors",
+          "ar": "عوامل"
+        },
+        {
+          "en": "faculty of commerce",
+          "ar": "كلية التجارة"
+        },
+        {
+          "en": "faculty = college",
+          "ar": "كلية"
+        },
+        {
+          "en": "failure",
+          "ar": "الفشل"
+        },
+        {
+          "en": "fair = just",
+          "ar": "عادل"
+        },
+        {
+          "en": "fair peace",
+          "ar": "السلام العادل"
+        },
+        {
+          "en": "fair wages",
+          "ar": "أجور عادلة"
+        },
+        {
+          "en": "fairground",
+          "ar": "أرض المعارض"
+        },
+        {
+          "en": "fairness = justice",
+          "ar": "العدل"
+        },
+        {
+          "en": "fair copy",
+          "ar": "النسخة المنقحة (لكتاب)"
+        },
+        {
+          "en": "faithful = sincere",
+          "ar": "مخلص"
+        },
+        {
+          "en": "fall-back pay",
+          "ar": "اعانة بطالة"
+        },
+        {
+          "en": "family planning",
+          "ar": "تنظيم الاسرة"
+        },
+        {
+          "en": "famine = starvation",
+          "ar": "مجاعة"
+        },
+        {
+          "en": "fanatic",
+          "ar": "متعصب"
+        },
+        {
+          "en": "fanaticism",
+          "ar": "التعصب"
+        },
+        {
+          "en": "fancy = imagine",
+          "ar": "يتخيل"
+        },
+        {
+          "en": "farming",
+          "ar": "زراعة"
+        },
+        {
+          "en": "fasten the seatbelt",
+          "ar": "يربط حزام الأمان"
+        },
+        {
+          "en": "fatal (adj.)",
+          "ar": "مميت / قاتل"
+        },
+        {
+          "en": "fatal diseases",
+          "ar": "أمراض فتاكة"
+        },
+        {
+          "en": "fate",
+          "ar": "مصير / قدر"
+        },
+        {
+          "en": "fear = horror = terror",
+          "ar": "رعب / خوف"
+        },
+        {
+          "en": "feast",
+          "ar": "عيد / وليمة"
+        },
+        {
+          "en": "feel at ease",
+          "ar": "يشعر بالراحة"
+        },
+        {
+          "en": "festival",
+          "ar": "احتفال / مهرجان"
+        },
+        {
+          "en": "fever",
+          "ar": "حمى"
+        },
+        {
+          "en": "feverish",
+          "ar": "محموم"
+        },
+        {
+          "en": "field",
+          "ar": "مجال"
+        },
+        {
+          "en": "fight",
+          "ar": "يحارب"
+        },
+        {
+          "en": "find a replacement",
+          "ar": "يجد بديلا لـ"
+        },
+        {
+          "en": "fine weather",
+          "ar": "جو رائع"
+        },
+        {
+          "en": "fire = dismiss",
+          "ar": "يطرد / يفصل من العمل"
+        },
+        {
+          "en": "fireworks",
+          "ar": "ألعاب نارية"
+        },
+        {
+          "en": "firm",
+          "ar": "حازم / صارم"
+        },
+        {
+          "en": "firm actions",
+          "ar": "إجراءات حازمة"
+        },
+        {
+          "en": "fishy",
+          "ar": "أعمال مريبة / مشبوة"
+        },
+        {
+          "en": "fit",
+          "ar": "لائق جسمانيًا"
+        },
+        {
+          "en": "flee -fled -fled",
+          "ar": "يهرب"
+        },
+        {
+          "en": "flood",
+          "ar": "فيضان / طوفان"
+        },
+        {
+          "en": "flourish",
+          "ar": "يزدهر / ازدهار"
+        },
+        {
+          "en": "flow of traffic",
+          "ar": "انسياب المرور"
+        },
+        {
+          "en": "fly-over bridges",
+          "ar": "كبارى علوية"
+        },
+        {
+          "en": "flyovers",
+          "ar": "كبارى علوية"
+        },
+        {
+          "en": "focus on",
+          "ar": "يركز على"
+        },
+        {
+          "en": "follow the steps",
+          "ar": "يتبع خطوات / نهج"
+        },
+        {
+          "en": "following the example of",
+          "ar": "أسوةً بـ"
+        },
+        {
+          "en": "food crisis",
+          "ar": "أزمة الغذاء"
+        },
+        {
+          "en": "food production",
+          "ar": "الإنتاج الغذائي"
+        },
+        {
+          "en": "food security",
+          "ar": "الأمن الغذائى"
+        },
+        {
+          "en": "food shortage",
+          "ar": "نقص الطعام"
+        },
+        {
+          "en": "foot and mouth",
+          "ar": "الحمى القلاعية"
+        },
+        {
+          "en": "for all peoples",
+          "ar": "لجميع الشعوب"
+        },
+        {
+          "en": "for all that",
+          "ar": "مع كل ذلك"
+        },
+        {
+          "en": "for better, for worse",
+          "ar": "فى السراء والضراء"
+        },
+        {
+          "en": "for instance",
+          "ar": "علي سبيل المثال"
+        },
+        {
+          "en": "for my sake",
+          "ar": "لأجل خاطرى"
+        },
+        {
+          "en": "for the good of",
+          "ar": "لصالح"
+        },
+        {
+          "en": "for the sake of world peace",
+          "ar": "من أجل السلام العالمى"
+        },
+        {
+          "en": "foreign agents",
+          "ar": "عملاء أجانب"
+        },
+        {
+          "en": "foreign exchange",
+          "ar": "دخل التبادل الخارجي"
+        },
+        {
+          "en": "foreign investment",
+          "ar": "الاستثمار الأجنبى"
+        },
+        {
+          "en": "foreign languages",
+          "ar": "لغات أجنبية"
+        },
+        {
+          "en": "forger",
+          "ar": "مزور / مزيف"
+        },
+        {
+          "en": "forgive",
+          "ar": "يعفو عن"
+        },
+        {
+          "en": "forgiveness",
+          "ar": "العفو"
+        },
+        {
+          "en": "form",
+          "ar": "يُشكّل / يكوّن"
+        },
+        {
+          "en": "former president",
+          "ar": "الرئيس السابق"
+        },
+        {
+          "en": "fortify",
+          "ar": "يحصن"
+        },
+        {
+          "en": "forts",
+          "ar": "قلاع"
+        },
+        {
+          "en": "forum",
+          "ar": "منتدى"
+        },
+        {
+          "en": "forwardness",
+          "ar": "حاله متقدمة"
+        },
+        {
+          "en": "found -ed -ed",
+          "ar": "يؤسس"
+        },
+        {
+          "en": "foundation",
+          "ar": "مؤسسة"
+        },
+        {
+          "en": "free education",
+          "ar": "تعليم مجانى"
+        },
+        {
+          "en": "free of",
+          "ar": "خالية من"
+        },
+        {
+          "en": "free time = spare time",
+          "ar": "وقت الفراغ"
+        },
+        {
+          "en": "free trade area",
+          "ar": "منطقة التجارة الحرة"
+        },
+        {
+          "en": "freedom",
+          "ar": "حرية"
+        },
+        {
+          "en": "freedom of expression",
+          "ar": "حرية التعبير"
+        },
+        {
+          "en": "freelance",
+          "ar": "حر / مستقل"
+        },
+        {
+          "en": "from now on",
+          "ar": "من الآن فصاعدًا"
+        },
+        {
+          "en": "from the first glance",
+          "ar": "من اللمحة الأولى"
+        },
+        {
+          "en": "Fruitful efforts",
+          "ar": "جهود مثمرة"
+        },
+        {
+          "en": "fulfill",
+          "ar": "يفي / الوفاء"
+        },
+        {
+          "en": "full funding",
+          "ar": "دعم كامل"
+        },
+        {
+          "en": "full judicial",
+          "ar": "إشراف قضائي كامل"
+        },
+        {
+          "en": "fungi",
+          "ar": "فطريات"
+        },
+        {
+          "en": "furious",
+          "ar": "ثائر / غاضب جدًا"
+        },
+        {
+          "en": "fury = rage = anger",
+          "ar": "غضب"
+        }
+      ]
+    }
+  ]
+}

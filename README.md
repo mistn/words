@@ -1,43 +1,26 @@
-# Astro Starter Kit: Minimal
+# Interactive English–Arabic Syllabus
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+Classroom vocabulary site built with Astro. All words are transcribed from
+**“Toppers Dictionary for Secondary Stage 2022”** (Toppers Team), in original book order —
+Part 1 topics, Part 2 A–Z, expressions & idioms, irregular verbs (~2700 words).
+Click any English word for British pronunciation (browser speechSynthesis, en-GB);
+Focus mode gives a minimal projector-friendly bar with Prev/Next and autoplay.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Structure
 
-## 🚀 Project Structure
+- `src/pages/index.astro` — main table UI (single file app)
+- `src/pages/about.astro` — source & contact page
+- `src/data/sheets/*.json` — one unit per file: `{ id, title, source, categories: [{ category, words: [{ en, ar }] }] }`
+- `Toppers.pdf` — source book (not deployed)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Commands
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| Command | Action |
+| :------ | :----- |
+| `pnpm install` | Install dependencies |
+| `pnpm dev` | Dev server at `localhost:4321` |
+| `pnpm test` | Data integrity tests (vitest) |
+| `pnpm build` | Static build to `./dist/` |
+| `pnpm deploy` | Build + deploy to Cloudflare Pages |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contact: contact@miuarc.com

@@ -1,0 +1,100 @@
+{
+  "id": "02-Cinema",
+  "title": "② Cinema",
+  "source": "Toppers Dictionary Part 1",
+  "categories": [
+    {
+      "category": "② Cinema",
+      "words": [
+        {
+          "en": "actor",
+          "ar": "ممثل"
+        },
+        {
+          "en": "actress",
+          "ar": "ممثلة"
+        },
+        {
+          "en": "award",
+          "ar": "جائزة / يمنح جائزة"
+        },
+        {
+          "en": "casting",
+          "ar": "اختيار الممثلين"
+        },
+        {
+          "en": "celebrities",
+          "ar": "مشاهير"
+        },
+        {
+          "en": "censorship",
+          "ar": "رقابة"
+        },
+        {
+          "en": "director",
+          "ar": "مخرج"
+        },
+        {
+          "en": "location",
+          "ar": "موقع تصوير"
+        },
+        {
+          "en": "location (= plateau)",
+          "ar": "موقع تصوير"
+        },
+        {
+          "en": "movies",
+          "ar": "أفلام"
+        },
+        {
+          "en": "producer",
+          "ar": "منتج"
+        },
+        {
+          "en": "publicity",
+          "ar": "شهرة / ذيوع"
+        },
+        {
+          "en": "scenario",
+          "ar": "سيناريو"
+        },
+        {
+          "en": "scene",
+          "ar": "مشهد"
+        },
+        {
+          "en": "serials",
+          "ar": "مسلسلات"
+        },
+        {
+          "en": "shot",
+          "ar": "لقطة فى فيلم"
+        },
+        {
+          "en": "sponsor",
+          "ar": "راعى"
+        },
+        {
+          "en": "sponsorship",
+          "ar": "رعاية"
+        },
+        {
+          "en": "stage",
+          "ar": "خشبة المسرح"
+        },
+        {
+          "en": "studio",
+          "ar": "استديو لتصوير الفيلم"
+        },
+        {
+          "en": "stuntman",
+          "ar": "بديل الممثل (دوبلير)"
+        },
+        {
+          "en": "suspense",
+          "ar": "تشويق"
+        }
+      ]
+    }
+  ]
+}

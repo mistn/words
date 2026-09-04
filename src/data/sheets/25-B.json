@@ -1,0 +1,292 @@
+{
+  "id": "25-B",
+  "title": "B",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "B",
+      "words": [
+        {
+          "en": "back to back",
+          "ar": "متتالي"
+        },
+        {
+          "en": "backward countries",
+          "ar": "دول متخلفة"
+        },
+        {
+          "en": "backwater",
+          "ar": "حالة ركود"
+        },
+        {
+          "en": "bail / fine",
+          "ar": "كفالة / غرامة"
+        },
+        {
+          "en": "balance",
+          "ar": "توازن"
+        },
+        {
+          "en": "balanced",
+          "ar": "متوازن"
+        },
+        {
+          "en": "balanced of nature",
+          "ar": "توازن البيئة"
+        },
+        {
+          "en": "ball",
+          "ar": "حفلة راقصة"
+        },
+        {
+          "en": "ballot box",
+          "ar": "صندوق الإقتراع"
+        },
+        {
+          "en": "balloting",
+          "ar": "التصويت / الإنتخاب"
+        },
+        {
+          "en": "base",
+          "ar": "أساس"
+        },
+        {
+          "en": "bases",
+          "ar": "أسس"
+        },
+        {
+          "en": "basis",
+          "ar": "أساس"
+        },
+        {
+          "en": "battle",
+          "ar": "معركة"
+        },
+        {
+          "en": "(be) away from",
+          "ar": "بمعزل عن"
+        },
+        {
+          "en": "(be) best known for",
+          "ar": "معروف بـ / مشهور بـ"
+        },
+        {
+          "en": "(be) in debt",
+          "ar": "مديون"
+        },
+        {
+          "en": "(be) interested in",
+          "ar": "تعني بـ / تهتم بـ"
+        },
+        {
+          "en": "(be) keen on",
+          "ar": "يحرص علي"
+        },
+        {
+          "en": "(be) reflected on",
+          "ar": "منعكس على"
+        },
+        {
+          "en": "beaches = sea sides",
+          "ar": "شواطئ"
+        },
+        {
+          "en": "beauty",
+          "ar": "الجمال"
+        },
+        {
+          "en": "beauty lovers",
+          "ar": "عشاق الجمال"
+        },
+        {
+          "en": "bedouins",
+          "ar": "البدو"
+        },
+        {
+          "en": "behave",
+          "ar": "يسلك / يتصرف"
+        },
+        {
+          "en": "behaviour",
+          "ar": "السلوك"
+        },
+        {
+          "en": "believe it or not",
+          "ar": "صدق أو لا تصدق"
+        },
+        {
+          "en": "belonging",
+          "ar": "الإنتماء"
+        },
+        {
+          "en": "benefit",
+          "ar": "فائدة / يستفيد"
+        },
+        {
+          "en": "benefit from",
+          "ar": "يستفيد من"
+        },
+        {
+          "en": "benefits",
+          "ar": "فوائد / منافع"
+        },
+        {
+          "en": "besides",
+          "ar": "بالإضافة إلى / فضلاً عن"
+        },
+        {
+          "en": "between",
+          "ar": "بين اثنين"
+        },
+        {
+          "en": "bilingual",
+          "ar": "ذو لغتين / ثنائى اللغة"
+        },
+        {
+          "en": "biography",
+          "ar": "السيرة الذاتية عن آخر"
+        },
+        {
+          "en": "biology",
+          "ar": "التاريخ الطبيعي / الأحياء"
+        },
+        {
+          "en": "bird flu",
+          "ar": "إنفلونزا الطيور"
+        },
+        {
+          "en": "birth control",
+          "ar": "تحديد النسل"
+        },
+        {
+          "en": "birth planning",
+          "ar": "تنظيم النسل"
+        },
+        {
+          "en": "birth rate",
+          "ar": "معدل المواليد"
+        },
+        {
+          "en": "blackmail",
+          "ar": "ابتزاز / يبتز"
+        },
+        {
+          "en": "blessing",
+          "ar": "نعمة"
+        },
+        {
+          "en": "blood circulation",
+          "ar": "الدورة الدموية"
+        },
+        {
+          "en": "blood donor",
+          "ar": "متبرع بالدم"
+        },
+        {
+          "en": "bombing",
+          "ar": "تفجير"
+        },
+        {
+          "en": "bondage",
+          "ar": "العبودية"
+        },
+        {
+          "en": "book fair",
+          "ar": "معرض الكتاب"
+        },
+        {
+          "en": "booklet",
+          "ar": "كتيّب"
+        },
+        {
+          "en": "borders",
+          "ar": "حدود"
+        },
+        {
+          "en": "bower",
+          "ar": "تعريشة / كوخ ريفى"
+        },
+        {
+          "en": "branches",
+          "ar": "فروع أو أغصان"
+        },
+        {
+          "en": "branches of",
+          "ar": "أفرع العلوم"
+        },
+        {
+          "en": "break a record",
+          "ar": "يحطم رقمًا قياسًا"
+        },
+        {
+          "en": "break the law",
+          "ar": "يخترق القانون"
+        },
+        {
+          "en": "bribe",
+          "ar": "يرشو / رشوة"
+        },
+        {
+          "en": "bright",
+          "ar": "لامع / مشرق"
+        },
+        {
+          "en": "brightness",
+          "ar": "الإشراق"
+        },
+        {
+          "en": "bright future",
+          "ar": "مستقبل باهر / مشرق"
+        },
+        {
+          "en": "brilliant",
+          "ar": "متقد الذكاء / نابغة"
+        },
+        {
+          "en": "bring up",
+          "ar": "يربى"
+        },
+        {
+          "en": "bring....to reason",
+          "ar": "يرد... إلى الصواب"
+        },
+        {
+          "en": "broadcast",
+          "ar": "إذاعة / يذيع"
+        },
+        {
+          "en": "broaden = widen",
+          "ar": "يوسع"
+        },
+        {
+          "en": "brochure",
+          "ar": "مطوية / بحث موجز"
+        },
+        {
+          "en": "budget",
+          "ar": "ميزانية"
+        },
+        {
+          "en": "but in vain",
+          "ar": "بلا جدوى"
+        },
+        {
+          "en": "by all means",
+          "ar": "بكافة السبل"
+        },
+        {
+          "en": "by chance",
+          "ar": "بالصدفة"
+        },
+        {
+          "en": "by nature",
+          "ar": "بالفطرة"
+        },
+        {
+          "en": "by the book",
+          "ar": "حسب التعليمات"
+        }
+      ]
+    }
+  ]
+}

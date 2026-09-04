@@ -1,0 +1,648 @@
+{
+  "id": "50-Verbs",
+  "title": "Irregular Verbs",
+  "source": "Toppers Dictionary",
+  "categories": [
+    {
+      "category": "Irregular Verbs",
+      "words": [
+        {
+          "ar": "يظهر، ينشأ، ينهض",
+          "en": "arise – arose – arisen"
+        },
+        {
+          "ar": "يصحو، مستيقظ",
+          "en": "awake – awoke – awoken / awakened"
+        },
+        {
+          "ar": "يكون",
+          "en": "is, am, are – was / were – been"
+        },
+        {
+          "ar": "يحمل، يلد",
+          "en": "bear – bore – born"
+        },
+        {
+          "ar": "يضرب",
+          "en": "beat – beat – beaten"
+        },
+        {
+          "ar": "يصبح",
+          "en": "become – became – become"
+        },
+        {
+          "ar": "يبدأ",
+          "en": "begin – began – begun"
+        },
+        {
+          "ar": "ينظر",
+          "en": "behold – beheld – beheld"
+        },
+        {
+          "ar": "يحني، يوجه، يركز",
+          "en": "bend – bent – bent"
+        },
+        {
+          "ar": "يراهن",
+          "en": "bet – bet – bet"
+        },
+        {
+          "ar": "يربط، يحزم، يجلد",
+          "en": "bind – bound – bound"
+        },
+        {
+          "ar": "يعض، يلسع، يلدغ",
+          "en": "bite – bit – bitten / bit"
+        },
+        {
+          "ar": "ينزف",
+          "en": "bleed – bled – bled"
+        },
+        {
+          "ar": "ينفخ، يهب",
+          "en": "blow – blew – blown"
+        },
+        {
+          "ar": "ينكسر، يكسر",
+          "en": "break – broke – broken"
+        },
+        {
+          "ar": "يفقس، يحدث، يلد",
+          "en": "breed – bred – bred"
+        },
+        {
+          "ar": "يجلب، يربي",
+          "en": "bring – brought – brought"
+        },
+        {
+          "ar": "يذيع",
+          "en": "broadcast – broadcast – broadcast"
+        },
+        {
+          "ar": "يبني",
+          "en": "build – built – built"
+        },
+        {
+          "ar": "يحرق",
+          "en": "burn – burned / burnt – burned / burnt"
+        },
+        {
+          "ar": "ينفجر، يطفح",
+          "en": "burst – burst – burst"
+        },
+        {
+          "ar": "يشتري",
+          "en": "buy – bought – bought"
+        },
+        {
+          "ar": "يختار، يدلى بـ، يلقى",
+          "en": "cast – cast – cast"
+        },
+        {
+          "ar": "يمسك",
+          "en": "catch – caught – caught"
+        },
+        {
+          "ar": "يختار",
+          "en": "choose – chose – chosen"
+        },
+        {
+          "ar": "يتعلق، يمسك، يلتصق",
+          "en": "cling – clung – clung"
+        },
+        {
+          "ar": "يكسو",
+          "en": "clothe – clothed / clad – clothed / clad"
+        },
+        {
+          "ar": "يأتي",
+          "en": "come – came – come"
+        },
+        {
+          "ar": "يكلف، يقدّر",
+          "en": "cost – cost – cost"
+        },
+        {
+          "ar": "يزحف، يتسرب",
+          "en": "creep – crept – crept"
+        },
+        {
+          "ar": "يقطع",
+          "en": "cut – cut – cut"
+        },
+        {
+          "ar": "يتعامل",
+          "en": "deal – dealt – dealt"
+        },
+        {
+          "ar": "يحفر، يحرث",
+          "en": "dig – dug – dug"
+        },
+        {
+          "ar": "يغوص، يغطس",
+          "en": "dive – dove / dived – dived"
+        },
+        {
+          "ar": "يفعل",
+          "en": "do – did – done"
+        },
+        {
+          "ar": "يرسم",
+          "en": "draw – drew – drawn"
+        },
+        {
+          "ar": "يحلم",
+          "en": "dream – dreamed / dreamt – dreamed / dreamt"
+        },
+        {
+          "ar": "يشرب",
+          "en": "drink – drank – drunk"
+        },
+        {
+          "ar": "يقود",
+          "en": "drive – drove – driven"
+        },
+        {
+          "ar": "يسكن، يقيم، يتوقف",
+          "en": "dwell – dwelled / dwelt – dwelled / dwelt"
+        },
+        {
+          "ar": "يأكل",
+          "en": "eat – ate – eaten"
+        },
+        {
+          "ar": "يسقط",
+          "en": "fall – fell – fallen"
+        },
+        {
+          "ar": "يغذي",
+          "en": "feed – fed – fed"
+        },
+        {
+          "ar": "يشعر، يحس",
+          "en": "feel – felt – felt"
+        },
+        {
+          "ar": "يحارب، يقاتل",
+          "en": "fight – fought – fought"
+        },
+        {
+          "ar": "يجد",
+          "en": "find – found – found"
+        },
+        {
+          "ar": "يهرب، يفر، يختفي",
+          "en": "flee – fled – fled"
+        },
+        {
+          "ar": "يطير",
+          "en": "fly – flew – flown"
+        },
+        {
+          "ar": "يحرّم",
+          "en": "forbid – forbade / forbid – forbidden / forbid"
+        },
+        {
+          "ar": "يتوقع، يتنبأ",
+          "en": "forecast – forecast – forecast"
+        },
+        {
+          "ar": "ينسى",
+          "en": "forget – forgot – forgotten / forgot"
+        },
+        {
+          "ar": "يسامح",
+          "en": "forgive – forgave – forgiven"
+        },
+        {
+          "ar": "يجمد، يبرد",
+          "en": "freeze – froze – frozen"
+        },
+        {
+          "ar": "يحصل",
+          "en": "get – got – gotten / got"
+        },
+        {
+          "ar": "يعطي",
+          "en": "give – gave – given"
+        },
+        {
+          "ar": "يذهب",
+          "en": "go – went – gone"
+        },
+        {
+          "ar": "يطحن، يجرش",
+          "en": "grind – ground – ground"
+        },
+        {
+          "ar": "ينمو",
+          "en": "grow – grew – grown"
+        },
+        {
+          "ar": "يعلق",
+          "en": "hang – hung – hung"
+        },
+        {
+          "ar": "يشنق",
+          "en": "hang – hanged – hanged"
+        },
+        {
+          "ar": "يملك",
+          "en": "have – had – had"
+        },
+        {
+          "ar": "يسمع",
+          "en": "hear – heard – heard"
+        },
+        {
+          "ar": "يختفي ، يخبىء",
+          "en": "hide – hid – hidden"
+        },
+        {
+          "ar": "ضرب ، بلغ ، صدم",
+          "en": "hit – hit – hit"
+        },
+        {
+          "ar": "يحمل ، يتمسك",
+          "en": "hold – held – held"
+        },
+        {
+          "ar": "جرح آذى",
+          "en": "hurt – hurt – hurt"
+        },
+        {
+          "ar": "يبقي",
+          "en": "keep – kept – kept"
+        },
+        {
+          "ar": "يسجد ، يركع",
+          "en": "kneel – kneeled / knelt – kneeled / knelt"
+        },
+        {
+          "ar": "يعرف ، يدرك",
+          "en": "know – knew – known"
+        },
+        {
+          "ar": "يقود ، يتزعم ، يوجه",
+          "en": "lead – led – led"
+        },
+        {
+          "ar": "يتكي ، يميل ، ينحرف",
+          "en": "lean – leaned / leant – leaned / leant"
+        },
+        {
+          "ar": "يقفز",
+          "en": "leap – leaped / leapt – leaped / leapt"
+        },
+        {
+          "ar": "يتعلم",
+          "en": "learn – learned / learnt – learned / learnt"
+        },
+        {
+          "ar": "يترك ، يغادر ، يهجر",
+          "en": "leave – left – left"
+        },
+        {
+          "ar": "يعير",
+          "en": "lend – lent – lent"
+        },
+        {
+          "ar": "ترك ، عرقل ، أجّر",
+          "en": "let – let – let"
+        },
+        {
+          "ar": "يكذب",
+          "en": "lie – lied – lied"
+        },
+        {
+          "ar": "يضع ، يتمدد",
+          "en": "lie – lay – lain"
+        },
+        {
+          "ar": "يضيء ، ينير",
+          "en": "light – lit / lighted – lit / lighted"
+        },
+        {
+          "ar": "يفقد ، يخسر",
+          "en": "lose – lost – lost"
+        },
+        {
+          "ar": "يصنع",
+          "en": "make – made – made"
+        },
+        {
+          "ar": "يعني ، يقصد",
+          "en": "mean – meant – meant"
+        },
+        {
+          "ar": "يقابل",
+          "en": "meet – met – met"
+        },
+        {
+          "ar": "يضلل ، يخدع",
+          "en": "mislead – misled – misled"
+        },
+        {
+          "ar": "يخطئ",
+          "en": "mistake – mistook – mistaken"
+        },
+        {
+          "ar": "يتغلب على",
+          "en": "overcome – overcame – overcome"
+        },
+        {
+          "ar": "يبالغ ، يفرط",
+          "en": "overdo – overdid – overdone"
+        },
+        {
+          "ar": "يجتاز ، يتجاوز ، يباغت",
+          "en": "overtake – overtook – overtaken"
+        },
+        {
+          "ar": "يشترك ، يشارك",
+          "en": "partake – partook – partaken"
+        },
+        {
+          "ar": "يدفع",
+          "en": "pay – paid – paid"
+        },
+        {
+          "ar": "يثبت ، يبرهن ، يتبين",
+          "en": "prove – proved – proved / proven"
+        },
+        {
+          "ar": "يضع",
+          "en": "put – put – put"
+        },
+        {
+          "ar": "يقرأ",
+          "en": "read – read – read"
+        },
+        {
+          "ar": "يركب ، يمتطي",
+          "en": "ride – rode – ridden"
+        },
+        {
+          "ar": "يطرق ، يرن",
+          "en": "ring – rang – rung"
+        },
+        {
+          "ar": "يرتفع ، ينهض",
+          "en": "rise – rose – risen"
+        },
+        {
+          "ar": "يجري",
+          "en": "run – ran – run"
+        },
+        {
+          "ar": "يقول",
+          "en": "say – said – said"
+        },
+        {
+          "ar": "يرى",
+          "en": "see – saw – seen"
+        },
+        {
+          "ar": "يطلب ، يسعى إلى",
+          "en": "seek – sought – sought"
+        },
+        {
+          "ar": "يبيع",
+          "en": "sell – sold – sold"
+        },
+        {
+          "ar": "يرسل",
+          "en": "send – sent – sent"
+        },
+        {
+          "ar": "يضع ، يجمد",
+          "en": "set – set – set"
+        },
+        {
+          "ar": "يخيط ، يصلح ، يرفع",
+          "en": "sew – sewed – sewed / sewn"
+        },
+        {
+          "ar": "يهتز ، يهز ، يرجف",
+          "en": "shake – shook – shaken"
+        },
+        {
+          "ar": "يحلق ، يقص",
+          "en": "shave – shaved – shaved / shaven"
+        },
+        {
+          "ar": "يقص ، يجرّد ، ينزع",
+          "en": "shear – sheared / shore – shorn"
+        },
+        {
+          "ar": "يريق ، يسفك دم",
+          "en": "shed – shed – shed"
+        },
+        {
+          "ar": "يتلألأ ، يشرق ، يضيء",
+          "en": "shine – shone – shone"
+        },
+        {
+          "ar": "يرمي ، يقتل ، يطلق",
+          "en": "shoot – shot – shot"
+        },
+        {
+          "ar": "يظهر ، يعرض",
+          "en": "show – showed – showed / shown"
+        },
+        {
+          "ar": "ينكمش ، يذبل",
+          "en": "shrink – shrank / shrunk – shrunk"
+        },
+        {
+          "ar": "يغلق ، يسدّ",
+          "en": "shut – shut – shut"
+        },
+        {
+          "ar": "يغني ، يغرد",
+          "en": "sing – sang – sung"
+        },
+        {
+          "ar": "يغرق ، يغوص",
+          "en": "sink – sank / sunk – sunk"
+        },
+        {
+          "ar": "يجلس",
+          "en": "sit – sat – sat"
+        },
+        {
+          "ar": "ينام",
+          "en": "sleep – slept – slept"
+        },
+        {
+          "ar": "ينزلق ، يتزحلق",
+          "en": "slide – slid – slid / slidden"
+        },
+        {
+          "ar": "يقذف ، يعلق ، يتدلى",
+          "en": "sling – slung – slung"
+        },
+        {
+          "ar": "يشم",
+          "en": "smell – smelled / smelt – smelled / smelt"
+        },
+        {
+          "ar": "يبذر ، يزرع ، ينثر",
+          "en": "sow – sowed – sowed / sown"
+        },
+        {
+          "ar": "يتكلم ، يتحدث",
+          "en": "speak – spoke – spoken"
+        },
+        {
+          "ar": "يسرع ، يسرّع",
+          "en": "speed – speeded / sped – speeded / spelt"
+        },
+        {
+          "ar": "يتهجى",
+          "en": "spell – spelled / spelt – spelled / spelt"
+        },
+        {
+          "ar": "يصرف ، ينفق",
+          "en": "spend – spent – spent"
+        },
+        {
+          "ar": "يسكب ، يريق",
+          "en": "spill – spilled / spilt – spilled / spilt"
+        },
+        {
+          "ar": "يدور ، يغزل ، يدوّم",
+          "en": "spin – spun – spun"
+        },
+        {
+          "ar": "ينقسم ، ينشق ، ينشطر",
+          "en": "split – split – split"
+        },
+        {
+          "ar": "يفسد ، يتلف ، يسلّب",
+          "en": "spoil – spoiled / spoilt – spoiled / spoilt"
+        },
+        {
+          "ar": "ينشر ، ينتشر",
+          "en": "spread – spread – spread"
+        },
+        {
+          "ar": "يقف",
+          "en": "stand – stood – stood"
+        },
+        {
+          "ar": "يسرق",
+          "en": "steal – stole – stolen"
+        },
+        {
+          "ar": "يلتصق",
+          "en": "stick – stuck – stuck"
+        },
+        {
+          "ar": "يلدغ ، يغش",
+          "en": "sting – stung – stung"
+        },
+        {
+          "ar": "يضرب ، يخترق",
+          "en": "strike – struck – struck"
+        },
+        {
+          "ar": "يكافح ، يناضل",
+          "en": "strive – strived / strove – strived / striven"
+        },
+        {
+          "ar": "يُقسم",
+          "en": "swear – swore – sworn"
+        },
+        {
+          "ar": "يسبح",
+          "en": "swim – swam – swum"
+        },
+        {
+          "ar": "يتأرجح ، يتذبذب",
+          "en": "swing – swung – swung"
+        },
+        {
+          "ar": "يأخذ",
+          "en": "take – took – taken"
+        },
+        {
+          "ar": "يدرس",
+          "en": "teach – taught – taught"
+        },
+        {
+          "ar": "يمزق ، يشق",
+          "en": "tear – tore – torn"
+        },
+        {
+          "ar": "يخبر",
+          "en": "tell – told – told"
+        },
+        {
+          "ar": "يفكر",
+          "en": "think – thought – thought"
+        },
+        {
+          "ar": "يرمي ، يقذف",
+          "en": "throw – threw – thrown"
+        },
+        {
+          "ar": "يدفع ، يطعن",
+          "en": "thrust – thrust – thrust"
+        },
+        {
+          "ar": "يفهم",
+          "en": "understand – understood – understood"
+        },
+        {
+          "ar": "يفك ، يرخي",
+          "en": "unwind – unwound – unwound"
+        },
+        {
+          "ar": "يكنس ، يمسح ، يكسح",
+          "en": "sweep – swept – swept"
+        },
+        {
+          "ar": "يزعج ، يشوش",
+          "en": "upset – upset – upset"
+        },
+        {
+          "ar": "يستيقظ ، يوقظ",
+          "en": "wake – waked / woke – waked / woke / woken"
+        },
+        {
+          "ar": "يلبس ، يرتدي",
+          "en": "wear – wore – worn"
+        },
+        {
+          "ar": "ينسج ، يحوك",
+          "en": "weave – wove – woven"
+        },
+        {
+          "ar": "يبكي ، ينوح",
+          "en": "weep – wept – wept"
+        },
+        {
+          "ar": "يربح ، يفوز",
+          "en": "win – won – won"
+        },
+        {
+          "ar": "ينسحب ، يسحب",
+          "en": "withdraw – withdrew – withdrawn"
+        },
+        {
+          "ar": "يحجب ، يعرقل",
+          "en": "withhold – withheld – withheld"
+        },
+        {
+          "ar": "يقاوم ، يواجه ، يتحمل",
+          "en": "withstand – withstood – withstood"
+        },
+        {
+          "ar": "يكتب ، يسجل ، يؤلف",
+          "en": "write – wrote – written"
+        }
+      ]
+    }
+  ]
+}

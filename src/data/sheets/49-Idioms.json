@@ -1,0 +1,316 @@
+{
+  "id": "49-Idioms",
+  "title": "Expressions & Idioms",
+  "source": "Toppers Dictionary",
+  "categories": [
+    {
+      "category": "Expressions & Idioms",
+      "words": [
+        {
+          "ar": "وسيلة لا غاية",
+          "en": "a means not an end"
+        },
+        {
+          "ar": "على مدار الساعة",
+          "en": "around the clock"
+        },
+        {
+          "ar": "تحت أمرك",
+          "en": "at your disposal"
+        },
+        {
+          "ar": "ذهاباً وإياباً",
+          "en": "back and forth"
+        },
+        {
+          "ar": "واحد تلو الاخر",
+          "en": "back to back"
+        },
+        {
+          "ar": "بطريقة معكوسة",
+          "en": "back to front"
+        },
+        {
+          "ar": "فى مأزق",
+          "en": "be in a tight spot"
+        },
+        {
+          "ar": "موضوع جاد",
+          "en": "be no laughing matter = serious"
+        },
+        {
+          "ar": "يكسر حدة الجمود",
+          "en": "break the ice"
+        },
+        {
+          "ar": "عمومًا",
+          "en": "by and large"
+        },
+        {
+          "ar": "شفاهية",
+          "en": "by word of mouth"
+        },
+        {
+          "ar": "سلم واستلم",
+          "en": "cash on delivery"
+        },
+        {
+          "ar": "يغير رأيه",
+          "en": "change his mind"
+        },
+        {
+          "ar": "يظهر ويختفى",
+          "en": "come and go"
+        },
+        {
+          "ar": "سلاح ذو حدين",
+          "en": "double edged weapon"
+        },
+        {
+          "ar": "يتلقى العقاب",
+          "en": "face the music"
+        },
+        {
+          "ar": "وجهًا لوجه",
+          "en": "face to face"
+        },
+        {
+          "ar": "بشحمه ولحمه",
+          "en": "flesh and blood"
+        },
+        {
+          "ar": "مجانى",
+          "en": "for free = free of charge"
+        },
+        {
+          "ar": "كاتب صحفى مستقل",
+          "en": "freelance journalist"
+        },
+        {
+          "ar": "من المهد للحد",
+          "en": "from cradle to death"
+        },
+        {
+          "ar": "يتضايق",
+          "en": "get the hump"
+        },
+        {
+          "ar": "يساعد",
+          "en": "give a hand"
+        },
+        {
+          "ar": "هات وخد",
+          "en": "give and take"
+        },
+        {
+          "ar": "تقريبًا",
+          "en": "give or take"
+        },
+        {
+          "ar": "كيف؟",
+          "en": "How come?"
+        },
+        {
+          "ar": "ضجيج وعجيج",
+          "en": "hustle and bustle"
+        },
+        {
+          "ar": "لو كنت مكانك",
+          "en": "If I were in your shoes"
+        },
+        {
+          "ar": "فى غمضة عين",
+          "en": "in a blink of an eye"
+        },
+        {
+          "ar": "أفراح وأحزان",
+          "en": "joys and cares"
+        },
+        {
+          "ar": "حافظ على هدوئك",
+          "en": "keep your cool"
+        },
+        {
+          "ar": "يموت",
+          "en": "kick the bucket"
+        },
+        {
+          "ar": "يصنع اسمًا لنفسه ( يصبح مشهورًا)",
+          "en": "make a name for himself"
+        },
+        {
+          "ar": "يرضى بـ",
+          "en": "make do with"
+        },
+        {
+          "ar": "يسخر من",
+          "en": "make fun of"
+        },
+        {
+          "ar": "لا يفهم",
+          "en": "make no head nor tail"
+        },
+        {
+          "ar": "يلقى حتفه",
+          "en": "meet his end"
+        },
+        {
+          "ar": "نعمة ونقمة",
+          "en": "mixed blessing"
+        },
+        {
+          "ar": "من حين لآخر",
+          "en": "now and again"
+        },
+        {
+          "ar": "أشياء تافهة",
+          "en": "odds and ends"
+        },
+        {
+          "ar": "فجأة",
+          "en": "out of the blue"
+        },
+        {
+          "ar": "سعيد",
+          "en": "over the moon"
+        },
+        {
+          "ar": "جزء لا يتجزأ",
+          "en": "part and parcel"
+        },
+        {
+          "ar": "مميزات وعيوب",
+          "en": "pros and cons"
+        },
+        {
+          "ar": "يسرع",
+          "en": "put your skates on = hurry up"
+        },
+        {
+          "ar": "يُفهم",
+          "en": "put...in the picture"
+        },
+        {
+          "ar": "ينعزل عن الناس/ يتقوقع",
+          "en": "retreat into a shell"
+        },
+        {
+          "ar": "يعدم",
+          "en": "sentence to death"
+        },
+        {
+          "ar": "يهتم بـ",
+          "en": "take care of"
+        },
+        {
+          "ar": "يهتم اهتمامًا كبيرًا بـ",
+          "en": "take great interest in"
+        },
+        {
+          "ar": "يأخذ فى الإعتبار",
+          "en": "take into consideration"
+        },
+        {
+          "ar": "يأخذ الأمور ببساطة",
+          "en": "take it easy"
+        },
+        {
+          "ar": "يتخذ إجراءات",
+          "en": "take measures"
+        },
+        {
+          "ar": "يخرج القمامة",
+          "en": "take out the garbage"
+        },
+        {
+          "ar": "يتولى الأمر",
+          "en": "take over"
+        },
+        {
+          "ar": "يتعاطى جرعة زائدة",
+          "en": "take overdose"
+        },
+        {
+          "ar": "يشارك فى",
+          "en": "take part in"
+        },
+        {
+          "ar": "يدمن",
+          "en": "take to"
+        },
+        {
+          "ar": "يلزم الفراش",
+          "en": "take to bed"
+        },
+        {
+          "ar": "لقد أوشك صبرى على النفاذ",
+          "en": "the ice is getting real thin"
+        },
+        {
+          "ar": "كل كبيرة وصغيرة",
+          "en": "the ins and outs"
+        },
+        {
+          "ar": "سرك في بير",
+          "en": "the lips are sealed"
+        },
+        {
+          "ar": "لا جديد",
+          "en": "the same old faces"
+        },
+        {
+          "ar": "العين بالعين",
+          "en": "tit for tat"
+        },
+        {
+          "ar": "لتحقيق الأهداف",
+          "en": "to achieve the goals"
+        },
+        {
+          "ar": "لجمع الشمل",
+          "en": "to close the ranks"
+        },
+        {
+          "ar": "يساير",
+          "en": "to cope with"
+        },
+        {
+          "en": "to create good citizens",
+          "ar": "لخلق مواطنين صالحين"
+        },
+        {
+          "en": "to make great progress in",
+          "ar": "لتحقيق تقدم عظيم في"
+        },
+        {
+          "en": "to put your feet up = to relax",
+          "ar": "يسترخى"
+        },
+        {
+          "en": "to some extent",
+          "ar": "إلى حد ما"
+        },
+        {
+          "en": "to the age of ...",
+          "ar": "يعيش لسن ..."
+        },
+        {
+          "en": "to what extent..?",
+          "ar": "إلى أى مدى؟"
+        },
+        {
+          "en": "turn over a new leaf",
+          "ar": "يبدأ صفحة جديدة"
+        },
+        {
+          "en": "twists and turns of fate",
+          "ar": "تصاريف القدر"
+        },
+        {
+          "en": "ups and downs",
+          "ar": "تقلبات"
+        }
+      ]
+    }
+  ]
+}

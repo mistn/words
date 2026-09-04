@@ -1,0 +1,324 @@
+{
+  "id": "10-Medicine",
+  "title": "⑩ Medicine",
+  "source": "Toppers Dictionary Part 1",
+  "categories": [
+    {
+      "category": "⑩ Medicine",
+      "words": [
+        {
+          "en": "addict",
+          "ar": "يدمن"
+        },
+        {
+          "en": "addiction",
+          "ar": "إدمان"
+        },
+        {
+          "en": "adrenaline",
+          "ar": "هرمون الأدرينالين"
+        },
+        {
+          "en": "AIDS",
+          "ar": "مرض نقص المناعة"
+        },
+        {
+          "en": "analysis",
+          "ar": "تحليل"
+        },
+        {
+          "en": "antivenom",
+          "ar": "مصل / ترياق / لقاح"
+        },
+        {
+          "en": "artery",
+          "ar": "شريان"
+        },
+        {
+          "en": "backbone",
+          "ar": "عمود فقرى"
+        },
+        {
+          "en": "cancer",
+          "ar": "مرض السرطان"
+        },
+        {
+          "en": "cancerous",
+          "ar": "سرطانى/ قاتل"
+        },
+        {
+          "en": "cells",
+          "ar": "خلايا"
+        },
+        {
+          "en": "coma",
+          "ar": "غيبوبة"
+        },
+        {
+          "en": "contagion",
+          "ar": "عدوى"
+        },
+        {
+          "en": "contagious",
+          "ar": "معدى"
+        },
+        {
+          "en": "diabetes",
+          "ar": "مرض السكر"
+        },
+        {
+          "en": "diagnosis",
+          "ar": "تشخيص للمرض"
+        },
+        {
+          "en": "diarrhea",
+          "ar": "إسهال"
+        },
+        {
+          "en": "dissection",
+          "ar": "تشريح"
+        },
+        {
+          "en": "donation",
+          "ar": "تبرع"
+        },
+        {
+          "en": "drugs",
+          "ar": "عقاقير / أدوية / مخدرات"
+        },
+        {
+          "en": "emergency room",
+          "ar": "غرفة طوارىء"
+        },
+        {
+          "en": "endorphin",
+          "ar": "هرمون الإندورفين"
+        },
+        {
+          "en": "epidemics",
+          "ar": "أوبئة"
+        },
+        {
+          "en": "experiments",
+          "ar": "تجارب معملية"
+        },
+        {
+          "en": "fever",
+          "ar": "حمى"
+        },
+        {
+          "en": "hormones",
+          "ar": "هرمونات"
+        },
+        {
+          "en": "hygiene",
+          "ar": "نظافة شخصية"
+        },
+        {
+          "en": "immune system",
+          "ar": "جهاز المناعة"
+        },
+        {
+          "en": "incurable",
+          "ar": "لا علاج له / مزمن"
+        },
+        {
+          "en": "indigestion",
+          "ar": "عسر الهضم"
+        },
+        {
+          "en": "inflammation",
+          "ar": "إلتهاب"
+        },
+        {
+          "en": "injection",
+          "ar": "حقن / حقنة طبية"
+        },
+        {
+          "en": "intensive care",
+          "ar": "عناية مركزة"
+        },
+        {
+          "en": "jaw",
+          "ar": "فك (أسنان)"
+        },
+        {
+          "en": "kidneys",
+          "ar": "كليتان"
+        },
+        {
+          "en": "laboratory",
+          "ar": "معمل"
+        },
+        {
+          "en": "liver",
+          "ar": "كبد"
+        },
+        {
+          "en": "lungs",
+          "ar": "رئتان"
+        },
+        {
+          "en": "mania",
+          "ar": "ولع / جنون"
+        },
+        {
+          "en": "measles",
+          "ar": "حصبة"
+        },
+        {
+          "en": "medicine",
+          "ar": "طب / دواء"
+        },
+        {
+          "en": "moans",
+          "ar": "أنات (تأوهات)"
+        },
+        {
+          "en": "muscles",
+          "ar": "عضلات"
+        },
+        {
+          "en": "nausea",
+          "ar": "نعاس"
+        },
+        {
+          "en": "ointment",
+          "ar": "مرهم"
+        },
+        {
+          "en": "parasites",
+          "ar": "طفيليات"
+        },
+        {
+          "en": "pharmaceutical",
+          "ar": "مستحضر دوائى"
+        },
+        {
+          "en": "phobia",
+          "ar": "خوف مرضى"
+        },
+        {
+          "en": "pituitary gland",
+          "ar": "غدة نخامية"
+        },
+        {
+          "en": "plastic surgery",
+          "ar": "جراحة تجميل"
+        },
+        {
+          "en": "plight",
+          "ar": "وباء / طاعون"
+        },
+        {
+          "en": "pregnancy",
+          "ar": "حمل"
+        },
+        {
+          "en": "pregnant",
+          "ar": "حامل"
+        },
+        {
+          "en": "prescription",
+          "ar": "روشته"
+        },
+        {
+          "en": "recuperation",
+          "ar": "فترة نقاهة"
+        },
+        {
+          "en": "remedy",
+          "ar": "علاج"
+        },
+        {
+          "en": "respiratory system",
+          "ar": "جهاز تنفسى"
+        },
+        {
+          "en": "sanitation",
+          "ar": "نظافة عامة"
+        },
+        {
+          "en": "skin graft",
+          "ar": "عملية ترقيع"
+        },
+        {
+          "en": "spleen",
+          "ar": "طحال"
+        },
+        {
+          "en": "stem cells",
+          "ar": "خلايا جذعية"
+        },
+        {
+          "en": "sterilization",
+          "ar": "تعقيم"
+        },
+        {
+          "en": "surgery",
+          "ar": "جراحة"
+        },
+        {
+          "en": "symptoms",
+          "ar": "أعراض (مرض)"
+        },
+        {
+          "en": "syrup",
+          "ar": "شراب"
+        },
+        {
+          "en": "tablets",
+          "ar": "أقراص"
+        },
+        {
+          "en": "thyroid gland",
+          "ar": "غدة درقية"
+        },
+        {
+          "en": "transfusion",
+          "ar": "عملية نقل دم"
+        },
+        {
+          "en": "transplant",
+          "ar": "عملية زرع عضو"
+        },
+        {
+          "en": "tumor",
+          "ar": "ورم"
+        },
+        {
+          "en": "vaccines",
+          "ar": "أمصال / لقاحات"
+        },
+        {
+          "en": "valves",
+          "ar": "صمامات"
+        },
+        {
+          "en": "vascular",
+          "ar": "وريدى"
+        },
+        {
+          "en": "vegetarian",
+          "ar": "إنسان نباتى"
+        },
+        {
+          "en": "ventilator",
+          "ar": "جهاز تنفس صناعى"
+        },
+        {
+          "en": "vessels",
+          "ar": "أوعية"
+        },
+        {
+          "en": "vomiting",
+          "ar": "قىء"
+        },
+        {
+          "en": "wards",
+          "ar": "عنابر / أجنحة"
+        }
+      ]
+    }
+  ]
+}

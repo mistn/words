@@ -8,16 +8,28 @@ const sheetsFromFiles = Object.entries(rawSheets)
   .sort((a:any,b:any) => String(a.id).localeCompare(String(b.id)));
 const sheets = sheetsFromFiles.length ? sheetsFromFiles : [{ id: '01', title: 'Sheet 01 — ① Arts / ② Cinema / ③ Education', categories: vocabData }];
 const defaultSheet = sheets[0];
-const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=>n+c.words.length,0),0);
+const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n:any,c:any)=>n+c.words.length,0),0);
+const countBy = (pred:(s:any)=>boolean) => sheets.filter(pred).length;
+const wordsBy = (pred:(s:any)=>boolean) => sheets.filter(pred).reduce((s:any,sh:any)=> s+sh.categories.reduce((n:any,c:any)=>n+c.words.length,0),0);
+const isPart1 = (s:any) => /Part 1/.test(s.source||'') || /^[0-2][0-9]-/.test(s.id) && parseInt(s.id)<=23;
+const isIdioms = (s:any) => /Idiom/.test(s.title);
+const isVerbs = (s:any) => /Verb/.test(s.title);
+const isPart2 = (s:any) => !isPart1(s) && !isIdioms(s) && !isVerbs(s);
+const part1Count = countBy(isPart1); const part2Count = countBy(isPart2);
+const part1Words = wordsBy(isPart1); const part2Words = wordsBy(isPart2);
+const idiomsWords = wordsBy(isIdioms); const verbsWords = wordsBy(isVerbs);
+const groupOf = (s:any) => isPart1(s) ? 'Part 1 — Topics' : isPart2(s) ? 'Part 2 — A–Z' : isIdioms(s) ? 'Expressions' : 'Verbs';
+const grouped: Record<string,any[]> = {};
+for (const s of sheets) { const g = groupOf(s); (grouped[g] ??= []).push(s); }
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Interactive English-Arabic vocabulary — click to hear British English (en-GB 0.9). Arts, Cinema, Education. SpeechSynthesis, RTL Arabic, responsive cards/table." />
+    <meta name="description" content="Interactive English-Arabic vocabulary — click to hear British English (en-GB 0.9). Part 1 topics, Part 2 A-Z, idioms and irregular verbs. SpeechSynthesis, RTL Arabic, responsive cards/table." />
     <meta property="og:title" content="Interactive English–Arabic Vocabulary — British Pronunciation" />
-    <meta property="og:description" content="Click any English word to hear British pronunciation. 61 words in original image order." />
-    <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
+    <meta property="og:description" content="Click any English word to hear British pronunciation. Book order, 2700+ words." />
+    <link rel="icon" href="/favicon.svg?v=3" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,42 +40,45 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
     <div id="aria-live" aria-live="polite" aria-atomic="true" class="sr-only"></div>
     <header class="max-w-[1360px] mx-auto px-4 md:px-6 pt-6 pb-4">
       <div class="bg-white rounded-2xl border border-slate-200 shadow-sm px-5 py-5 md:px-7 md:py-6">
-        <div class="flex flex-col xl:flex-row xl:items-start xl:justify-between gap-4">
-          <div class="min-w-0">
+        <div class="flex flex-col gap-3">
+          <div class="min-w-0 flex flex-wrap items-baseline gap-x-3 gap-y-1">
             <h1 class="text-xl md:text-2xl font-bold tracking-tight text-slate-900">Interactive English–Arabic Syllabus</h1>
-            <p class="text-slate-500 mt-1 text-sm">Exact order from source image · Click English for British pronunciation <span class="font-mono text-xs bg-slate-100 px-1.5 py-0.5 rounded">en-GB</span> · Arabic <code>dir="rtl"</code></p>
-            <p class="text-xs text-slate-400 mt-1">61 words: ① Arts 18 · ② Cinema 17 · ③ Education 26 · {sheets.length} sheet{sheets.length>1?'s':''} · {totalWords} total words</p>
+            <p class="text-xs text-slate-400 mt-1">Part 1 topics {part1Count} · {part1Words} words · Part 2 A–Z {part2Count} · {part2Words} words · Idioms {idiomsWords} · Verbs {verbsWords} · {sheets.length} units · {totalWords} total</p>
           </div>
-          <div class="flex flex-wrap items-center gap-2 shrink-0">
+          <div class="flex flex-wrap items-center gap-2">
             <select id="sheet-select" aria-label="Select vocabulary sheet" class="rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium max-w-[260px]">
-              {sheets.map((s:any) => (
-                <option value={s.id} selected={s.id===defaultSheet.id}>{s.title} ({s.categories.reduce((n,c)=>n+c.words.length,0)} words)</option>
+              {Object.entries(grouped).map(([g, list]: any) => (
+                <optgroup label={g}>
+                  {(list as any[]).map((s:any) => (
+                    <option value={s.id} selected={s.id===defaultSheet.id}>{s.title} ({s.categories.reduce((n:any,c:any)=>n+c.words.length,0)})</option>
+                  ))}
+                </optgroup>
               ))}
             </select>
             <select id="voice-select" aria-label="Select British voice" class="rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium max-w-[200px]"><option>Loading voices…</option></select>
-            <label class="flex items-center gap-1.5 text-xs bg-slate-50 border border-slate-200 rounded-full px-3 py-2">Rate <input id="rate" type="range" min="0.7" max="1.1" step="0.05" value="0.9" class="w-16 accent-rose-500" /> <span id="rate-val" class="font-mono w-7">0.9</span></label>
             <button id="autoplay-btn" type="button" class="rounded-full border border-rose-200 bg-rose-50 hover:bg-rose-100 text-rose-700 px-4 py-2 text-sm font-medium">▶ Auto</button>
             <button id="stop-btn" type="button" class="rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 px-4 py-2 text-sm font-medium">⏹ Stop</button>
-            <span id="status" class="hidden lg:inline text-sm text-slate-500 min-w-[110px] text-right" aria-live="polite">Ready</span>
+            <button id="prev-btn" type="button" title="Previous unit" class="rounded-full border border-slate-200 bg-white hover:bg-slate-50 px-3 py-2 text-sm font-medium">‹ Prev</button>
+            <button id="next-btn" type="button" title="Next unit" class="rounded-full border border-slate-200 bg-white hover:bg-slate-50 px-3 py-2 text-sm font-medium">Next ›</button>
+            <button id="focus-btn" type="button" title="Focus mode" class="rounded-full border border-slate-200 bg-slate-900 hover:bg-slate-700 text-white px-4 py-2 text-sm font-medium">⛶ Focus</button>
+            <input id="search" placeholder="Search English / Arabic… (/)" class="ml-auto w-full md:w-48 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm outline-none focus:bg-white focus:border-rose-300 focus:ring-2 focus:ring-rose-100" />
           </div>
-        </div>
-
-        <div class="mt-4 flex flex-wrap items-center gap-2">
-          <div class="inline-flex rounded-full bg-slate-100 p-1 text-sm">
-            <button id="view-cards" type="button" class="px-4 py-1.5 rounded-full bg-white shadow-sm font-semibold">Cards</button>
-            <button id="view-table" type="button" class="px-4 py-1.5 rounded-full text-slate-500 hover:text-slate-700">Table</button>
-          </div>
-          <span class="inline-flex items-center gap-1 rounded-full bg-rose-500 text-white px-3 py-1.5 text-xs font-semibold">🔊 Click word to play</span>
-          <span class="hidden md:inline text-xs text-slate-500">↑↓ navigate · Enter play · / search · Esc stop</span>
-          <input id="search" placeholder="Search English / Arabic… (/)" class="ml-auto w-full md:w-64 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-sm outline-none focus:bg-white focus:border-rose-300 focus:ring-2 focus:ring-rose-100" />
         </div>
         <p id="voice-hint" class="mt-2 text-xs text-amber-600 hidden"></p>
       </div>
     </header>
+    <div id="focus-bar" class="fixed top-0 inset-x-0 z-50 items-center gap-1.5 md:gap-2 overflow-x-auto bg-slate-900/95 text-white px-3 md:px-4 py-2.5 shadow-lg" style="display:none">
+      <button id="exit-focus-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 py-1.5 text-sm font-medium shrink-0">✕ Exit</button>
+      <button id="fprev-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">‹ Prev</button>
+      <span id="focus-title" class="min-w-0 flex-1 text-center font-bold text-sm md:text-base truncate"></span>
+      <span id="focus-status" class="hidden md:inline text-xs text-white/60 min-w-[90px] text-right"></span>
+      <button id="fauto-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">▶ Auto</button>
+      <button id="fstop-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">⏹ Stop</button>
+      <button id="fnext-btn" type="button" class="rounded-full bg-white/10 hover:bg-white/20 px-3 md:px-4 py-1.5 text-sm font-medium shrink-0">Next ›</button>
+    </div>
 
     <main class="max-w-[1360px] mx-auto px-4 md:px-6 pb-10">
-      <div id="cards-view" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6"></div>
-      <div id="table-view" class="hidden bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+      <div id="table-view" class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
         <div class="overflow-x-auto">
           <table class="w-full text-sm border-collapse">
             <thead class="bg-slate-50 text-slate-500 text-xs">
@@ -79,31 +94,33 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
         </div>
       </div>
 
-      <div class="mt-6 rounded-xl border border-dashed border-slate-300 bg-white/60 px-4 py-3 text-xs text-slate-500 leading-relaxed">
-        <b>Add more sheets:</b> Duplicate <code>src/data/sheets/01.json</code> to <code>02.json</code> / <code>03.json</code> and fill <code>categories → words</code> in original image order. They appear automatically in the dropdown. See <code>_template.json</code> and <code>README.md</code>.
-      </div>
-      <footer class="mt-4 text-center text-xs text-slate-400">©miuarc · <span class="hidden sm:inline">↑↓ Enter / Esc · Auto reads filtered list sequentially</span></footer>
     </main>
+    <footer class="pb-6 text-center text-xs text-slate-400"><a href="/about" class="hover:text-rose-500">About &amp; source</a> · <a href="mailto:contact@miuarc.com" class="hover:text-rose-500">contact@miuarc.com</a></footer>
 
-    <style>
+    <style is:global>
       @keyframes bar { 0%,100%{ transform: scaleY(0.6)} 50%{ transform: scaleY(1)} }
-      .word-btn.playing, .row-btn.playing { background:#fff1f2 !important; }
-      .word-btn.selected, .row-btn.selected { outline:2px solid #f43f5e; outline-offset:-2px; }
-      .word-btn.playing .en-text, .row-btn.playing .en-text { color:#e11d48; }
+      .row-btn.playing { background:#fff1f2 !important; }
+      .row-btn.playing .ico { background:#f43f5e !important; }
+      td.cell-playing { background:#fff1f2 !important; }
+      td.cell-hover { background:rgba(255,241,242,.7); }
+      .row-btn.selected { outline:2px solid #f43f5e; outline-offset:-2px; }
+      .row-btn.playing .en-text { color:#e11d48; }
+      .row-btn { scroll-margin-top:72px; }
+      body.immersive header { display:none; }
+      body.immersive #focus-bar { display:flex !important; }
+      body.immersive main { padding-top:64px; }
+      body.immersive #units-help, body.immersive footer { display:none; }
       .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     </style>
 
     <script id="sheets-data" type="application/json" set:html={JSON.stringify(sheets)}></script>
     <script>
       const sheets = JSON.parse(document.getElementById('sheets-data').textContent);
-      const cardsView = document.getElementById('cards-view');
       const tableView = document.getElementById('table-view');
       const tableBody = document.getElementById('table-body');
       const sheetSelect = document.getElementById('sheet-select');
       const voiceSelect = document.getElementById('voice-select');
       const voiceHint = document.getElementById('voice-hint');
-      const viewCardsBtn = document.getElementById('view-cards');
-      const viewTableBtn = document.getElementById('view-table');
       const searchInput = document.getElementById('search');
       const statusEl = document.getElementById('status');
       const ariaLive = document.getElementById('aria-live');
@@ -121,9 +138,20 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
       let autoplayQueue = [];
       let autoplayIndex = 0;
 
-      function setStatus(t){ if(statusEl) statusEl.textContent=t; if(ariaLive) ariaLive.textContent=t; }
+      function setStatus(t){ if(statusEl) statusEl.textContent=t; if(ariaLive) ariaLive.textContent=t; const fs=document.getElementById('focus-status'); if(fs) fs.textContent=t; }
+      function paintAuto(){
+        const b2 = document.getElementById('fauto-btn');
+        [autoplayBtn, b2].forEach(b=>{
+          if(!b) return;
+          b.textContent = autoplay ? '⏸ Pause' : '▶ Auto';
+          b.classList.toggle('bg-rose-500', autoplay);
+          b.classList.toggle('text-white', autoplay);
+          if(b !== autoplayBtn) b.classList.toggle('bg-white/10', !autoplay);
+        });
+      }
 
       function populateVoices(){
+        if(!voiceSelect) return;
         const voices = window.speechSynthesis.getVoices();
         const gbVoices = voices.filter(v=> v.lang==='en-GB' || v.lang.toLowerCase().includes('en-gb'));
         const list = gbVoices.length ? gbVoices : voices.filter(v=> v.lang.startsWith('en'));
@@ -156,8 +184,7 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
       function speak(text, btn){
         if(!('speechSynthesis' in window)){ alert('Browser does not support text-to-speech.'); return; }
         window.speechSynthesis.cancel();
-        autoplay = false; autoplayBtn.textContent='▶ Auto'; autoplayBtn.classList.remove('bg-rose-500','text-white');
-        if(currentBtn) currentBtn.classList.remove('playing');
+        autoplay = false; paintAuto();
         const u = new SpeechSynthesisUtterance(text);
         u.lang = 'en-GB'; u.rate = rate;
         if(selectedVoice) u.voice = selectedVoice;
@@ -166,10 +193,10 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
           const gb = voices.find(v=> v.lang==='en-GB' || v.lang.toLowerCase().includes('en-gb'));
           if(gb) u.voice = gb;
         }
-        btn.classList.add('playing'); currentBtn=btn; setSelected(btn);
+        markPlaying(btn,true); currentBtn=btn; setSelected(btn);
         setStatus('🔊 ' + text);
-        u.onend = ()=>{ btn.classList.remove('playing'); if(currentBtn===btn) currentBtn=null; setStatus('Ready'); if(autoplay) playNextInQueue(); };
-        u.onerror = ()=>{ btn.classList.remove('playing'); if(currentBtn===btn) currentBtn=null; setStatus('Ready'); };
+        u.onend = ()=>{ markPlaying(btn,false); if(currentBtn===btn) currentBtn=null; setStatus('Ready'); if(autoplay) playNextInQueue(); };
+        u.onerror = ()=>{ markPlaying(btn,false); if(currentBtn===btn) currentBtn=null; setStatus('Ready'); };
         window.speechSynthesis.speak(u);
       }
 
@@ -179,7 +206,28 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
         if(btn) btn.classList.add('selected');
       }
 
-      function getAllWordButtons(){ return [...document.querySelectorAll('[data-word]')]; }
+      function pairCells(btn){
+        const tds = [];
+        const td = btn && btn.closest ? btn.closest('td') : null;
+        if(td){
+          tds.push(td);
+          const ar = td.nextElementSibling;
+          if(ar && ar.tagName==='TD') tds.push(ar);
+        }
+        return tds;
+      }
+      function markPlaying(btn,on){
+        if(!btn) return;
+        btn.classList.toggle('playing',on);
+        pairCells(btn).forEach(td=> td.classList.toggle('cell-playing',on));
+      }
+      function clearPlaying(){ if(currentBtn){ markPlaying(currentBtn,false); } currentBtn=null; }
+      function getAllWordButtons(){
+        const L = [...tableView.querySelectorAll('[data-col="l"]')];
+        const R = [...tableView.querySelectorAll('[data-col="r"]')];
+        const vis = (list) => list.filter(b => b.offsetParent !== null);
+        return [...vis(L), ...vis(R)];
+      }
       function getFilteredCategories(){
         const sheet = sheets.find(s=> String(s.id)===String(currentSheetId)) || sheets[0];
         if(!filterText) return sheet.categories;
@@ -189,101 +237,120 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
 
       function render(){
         const cats = getFilteredCategories();
-        cardsView.innerHTML = cats.map(cat=> `
-          <section class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
-            <div class="bg-[#f9a8b4] md:bg-gradient-to-r from-rose-400 to-rose-500 text-white px-5 py-3 flex items-center justify-between">
-              <h2 class="font-bold text-[14px] tracking-wide">${cat.category}</h2>
-              <span class="text-[11px] font-semibold bg-white/25 px-2.5 py-1 rounded-full">${cat.words.length}</span>
-            </div>
-            <div class="divide-y divide-rose-50">
-              ${cat.words.map(item=> `
-                <button type="button" data-word="${item.en.replace(/"/g,'&quot;')}" aria-label="Play ${item.en.replace(/"/g,'')}" class="word-btn group w-full px-4 py-3 flex items-center justify-between text-left hover:bg-rose-50/70 focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300 transition-colors">
-                  <span class="flex items-center gap-2.5 min-w-0 pr-3">
-                    <span class="shrink-0 w-7 h-7 rounded-full bg-slate-100 group-[.playing]:bg-rose-500 group-hover:bg-rose-100 flex items-center justify-center text-[13px] transition-colors">
-                      <span class="group-[.playing]:hidden">🔊</span>
-                      <span class="hidden group-[.playing]:inline-flex items-center gap-[2px]"><span class="w-[3px] h-3 bg-white rounded-full animate-[bar_0.6s_ease-in-out_infinite]"></span><span class="w-[3px] h-2 bg-white rounded-full animate-[bar_0.6s_ease-in-out_0.15s_infinite]"></span><span class="w-[3px] h-3.5 bg-white rounded-full animate-[bar_0.6s_ease-in-out_0.3s_infinite]"></span></span>
-                    </span>
-                    <span class="en-text font-medium text-[14px] leading-tight text-slate-800 truncate">${item.en}</span>
-                  </span>
-                  <span dir="rtl" class="shrink-0 text-right font-[600] text-[15px] text-slate-600" style="font-family:'Noto Naskh Arabic',serif">${item.ar}</span>
-                </button>
-              `).join('')}
-            </div>
-          </section>
-        `).join('');
-
-        const flat = [];
-        cats.forEach(cat=>{ flat.push({header:cat.category}); cat.words.forEach(w=> flat.push(w)); });
-        let rows='';
-        for(let i=0;i<flat.length;i+=2){
-          const a=flat[i], b=flat[i+1];
-          const isHA=!!a.header, isHB=b&&!!b.header;
-          if(isHA && isHB) rows+=`<tr class="bg-[#fde2e6]"><td colspan="2" class="px-4 py-2 font-bold text-rose-700 text-center border-t border-rose-200">${a.header}</td><td colspan="2" class="hidden md:table-cell px-4 py-2 font-bold text-rose-700 text-center border-t border-l border-rose-200">${b.header}</td></tr>`;
-          else if(isHA && b && !isHB) rows+=`<tr class="bg-[#fde2e6]"><td colspan="2" class="px-4 py-2 font-bold text-rose-700 text-center border-t border-rose-200">${a.header}</td><td class="hidden md:table-cell px-4 py-2 border-l border-slate-200"><button data-word="${b.en.replace(/"/g,'&quot;')}" aria-label="Play ${b.en}" class="row-btn w-full flex items-center gap-2 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"><span class="text-xs">🔊</span><span class="en-text font-medium">${b.en}</span></button></td><td class="hidden md:table-cell px-4 py-2 text-right" dir="rtl" style="font-family:'Noto Naskh Arabic',serif">${b.ar}</td></tr>`;
-          else if(isHA && !b) rows+=`<tr class="bg-[#fde2e6]"><td colspan="4" class="px-4 py-2 font-bold text-rose-700 text-center border-t border-rose-200">${a.header}</td></tr>`;
-          else if(!isHA){
-            if(b && !b.header) rows+=`<tr class="hover:bg-rose-50/60"><td class="px-4 py-2 border-t border-rose-100"><button data-word="${a.en.replace(/"/g,'&quot;')}" aria-label="Play ${a.en}" class="row-btn w-full flex items-center gap-2 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"><span class="text-xs">🔊</span><span class="en-text font-medium">${a.en}</span></button></td><td class="px-4 py-2 text-right border-t border-rose-100" dir="rtl" style="font-family:'Noto Naskh Arabic',serif">${a.ar}</td><td class="hidden md:table-cell px-4 py-2 border-t border-l border-rose-100"><button data-word="${b.en.replace(/"/g,'&quot;')}" aria-label="Play ${b.en}" class="row-btn w-full flex items-center gap-2 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"><span class="text-xs">🔊</span><span class="en-text font-medium">${b.en}</span></button></td><td class="hidden md:table-cell px-4 py-2 text-right border-t border-rose-100" dir="rtl" style="font-family:'Noto Naskh Arabic',serif">${b.ar}</td></tr>`;
-            else if(b && b.header) rows+=`<tr class="hover:bg-rose-50/60"><td class="px-4 py-2 border-t border-rose-100"><button data-word="${a.en.replace(/"/g,'&quot;')}" aria-label="Play ${a.en}" class="row-btn w-full flex items-center gap-2 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"><span class="text-xs">🔊</span><span class="en-text font-medium">${a.en}</span></button></td><td class="px-4 py-2 text-right border-t border-rose-100" dir="rtl" style="font-family:'Noto Naskh Arabic',serif">${a.ar}</td><td colspan="2" class="hidden md:table-cell bg-[#fde2e6] px-4 py-2 font-bold text-rose-700 text-center border-t border-l border-rose-200">${b.header}</td></tr>`;
-            else rows+=`<tr class="hover:bg-rose-50/60"><td class="px-4 py-2 border-t border-rose-100"><button data-word="${a.en.replace(/"/g,'&quot;')}" aria-label="Play ${a.en}" class="row-btn w-full flex items-center gap-2 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300"><span class="text-xs">🔊</span><span class="en-text font-medium">${a.en}</span></button></td><td class="px-4 py-2 text-right border-t border-rose-100" dir="rtl" style="font-family:'Noto Naskh Arabic',serif">${a.ar}</td><td class="hidden md:table-cell px-4 py-2 border-t border-l border-rose-100"></td><td class="hidden md:table-cell px-4 py-2 border-t border-rose-100"></td></tr>`;
+        const BTN = 'row-btn group w-full flex items-center gap-2 text-left -mx-4 -my-2 px-4 py-2 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-300';
+        const ICO = '<span class="ico shrink-0 w-5 h-5 rounded-full bg-slate-100 flex items-center justify-center text-[11px] group-[.playing]:bg-rose-500"><span class="group-[.playing]:hidden">🔊</span><span class="hidden group-[.playing]:inline-flex items-center gap-[2px]"><span class="w-[2px] h-2 bg-white rounded-full animate-[bar_0.6s_ease-in-out_infinite]"></span><span class="w-[2px] h-1.5 bg-white rounded-full animate-[bar_0.6s_ease-in-out_0.15s_infinite]"></span><span class="w-[2px] h-2.5 bg-white rounded-full animate-[bar_0.6s_ease-in-out_0.3s_infinite]"></span></span></span>';
+        const ARF = "font-family:'Noto Naskh Arabic',serif";
+        const wbtn = (w, side) => `<button data-word="${w.en.replace(/"/g,'&quot;')}" data-col="${side}" aria-label="Play ${w.en.replace(/"/g,'')}" class="${BTN}">${ICO}<span class="en-text font-medium">${w.en}</span></button>`;
+        const enTd = (w, right) => `<td class="${right ? 'hidden md:table-cell px-4 py-2 border-t border-l border-rose-100' : 'px-4 py-2 border-t border-rose-100'}">${w ? wbtn(w, right ? 'r' : 'l') : ''}</td>`;
+        const arTd = (w, hide) => `<td class="${hide} px-4 py-2 text-right border-t border-rose-100" dir="rtl" style="${ARF}">${w ? w.ar : ''}</td>`;
+        let rows = '';
+        const narrow = window.innerWidth < 768;
+        cats.forEach(cat => {
+          rows += `<tr class="bg-[#fde2e6]"><td colspan="4" class="px-4 py-2 font-bold text-rose-700 text-center border-t border-rose-200">${cat.category}</td></tr>`;
+          const ws = cat.words;
+          if (narrow) {
+            ws.forEach(w => { rows += `<tr>${enTd(w, false)}${arTd(w, '')}</tr>`; });
+            return;
           }
-        }
+          const k = Math.ceil(ws.length / 2);
+          for (let i = 0; i < k; i++) {
+            const a = ws[i], b = ws[i + k];
+            rows += `<tr>${enTd(a, false)}${arTd(a, '')}${enTd(b, true)}${arTd(b, 'hidden md:table-cell')}</tr>`;
+          }
+        });
         tableBody.innerHTML = rows || `<tr><td colspan="4" class="px-6 py-8 text-center text-slate-400">No matches</td></tr>`;
         autoplayQueue = getAllWordButtons();
         if(selectedBtn && !document.contains(selectedBtn)) selectedBtn=null;
       }
 
       function playNextInQueue(){
-        if(!autoplay || autoplayIndex >= autoplayQueue.length){ autoplay=false; autoplayBtn.textContent='▶ Auto'; autoplayBtn.classList.remove('bg-rose-500','text-white'); setStatus('Ready'); return; }
+        if(!autoplay || autoplayIndex >= autoplayQueue.length){ autoplay=false; paintAuto(); setStatus('Ready'); return; }
         const btn = autoplayQueue[autoplayIndex++];
-        btn.scrollIntoView({block:'nearest', behavior:'smooth'});
+        const r = btn.getBoundingClientRect();
+        if (r.top < 72 || r.bottom > window.innerHeight) {
+          btn.scrollIntoView({block:'start', behavior:'smooth'});
+        }
         setSelected(btn);
         if(!('speechSynthesis' in window)) return;
         window.speechSynthesis.cancel();
-        if(currentBtn) currentBtn.classList.remove('playing');
+        clearPlaying();
         const text = btn.getAttribute('data-word');
         const u = new SpeechSynthesisUtterance(text);
         u.lang='en-GB'; u.rate=rate; if(selectedVoice) u.voice=selectedVoice;
-        btn.classList.add('playing'); currentBtn=btn; setStatus('🔊 '+(autoplayIndex)+'/'+autoplayQueue.length+' '+text);
-        u.onend = ()=>{ btn.classList.remove('playing'); if(currentBtn===btn) currentBtn=null; setTimeout(playNextInQueue, 350); };
-        u.onerror = ()=>{ btn.classList.remove('playing'); setTimeout(playNextInQueue, 350); };
+        markPlaying(btn,true); currentBtn=btn; setStatus('🔊 '+(autoplayIndex)+'/'+autoplayQueue.length+' '+text);
+        u.onend = ()=>{ markPlaying(btn,false); if(currentBtn===btn) currentBtn=null; setTimeout(playNextInQueue, 350); };
+        u.onerror = ()=>{ markPlaying(btn,false); setTimeout(playNextInQueue, 350); };
         window.speechSynthesis.speak(u);
-      }
-
-      function setView(mode){
-        const isCards = mode==='cards';
-        cardsView.classList.toggle('hidden', !isCards);
-        tableView.classList.toggle('hidden', isCards);
-        viewCardsBtn.className = isCards ? 'px-4 py-1.5 rounded-full bg-white shadow-sm font-semibold' : 'px-4 py-1.5 rounded-full text-slate-500';
-        viewTableBtn.className = !isCards ? 'px-4 py-1.5 rounded-full bg-white shadow-sm font-semibold' : 'px-4 py-1.5 rounded-full text-slate-500';
       }
 
       document.addEventListener('click', e=>{
         const btn = e.target.closest('[data-word]');
         if(btn) speak(btn.getAttribute('data-word'), btn);
       });
+      let hoverTds = [];
+      function clearHover(){ hoverTds.forEach(td=> td.classList.remove('cell-hover')); hoverTds=[]; }
+      tableView?.addEventListener('mouseover', e=>{
+        const btn = e.target.closest ? e.target.closest('[data-word]') : null;
+        if(!btn || !tableView.contains(btn)) return;
+        clearHover();
+        hoverTds = pairCells(btn);
+        hoverTds.forEach(td=> td.classList.add('cell-hover'));
+      });
+      tableView?.addEventListener('mouseout', e=>{
+        const to = e.relatedTarget;
+        if(to && to.closest && to.closest('[data-word]') && tableView.contains(to.closest('[data-word]'))){
+          const a = to.closest('[data-word]'), b = e.target.closest ? e.target.closest('[data-word]') : null;
+          if(a===b) return;
+        }
+        clearHover();
+      });
 
-      sheetSelect?.addEventListener('change', e=>{ currentSheetId=e.target.value; render(); });
-      viewCardsBtn?.addEventListener('click', ()=> setView('cards'));
-      viewTableBtn?.addEventListener('click', ()=> setView('table'));
+      sheetSelect?.addEventListener('change', e=>{ currentSheetId=e.target.value; render(); syncFocusTitle(); });
+      const gotoSheet = (d)=>{
+        const i = sheets.findIndex(s=> String(s.id)===String(currentSheetId));
+        const n = (i+d+sheets.length)%sheets.length;
+        autoplay=false; paintAuto();
+        if('speechSynthesis' in window) window.speechSynthesis.cancel();
+        clearPlaying();
+        currentSheetId = sheets[n].id;
+        if(sheetSelect) sheetSelect.value = sheets[n].id;
+        render(); syncFocusTitle();
+        setStatus(sheets[n].title);
+        window.scrollTo({top:0, behavior:'smooth'});
+      };
+      const setFocus = (on)=>{ document.body.classList.toggle('immersive', on); if(on) syncFocusTitle(); window.scrollTo({top:0}); };
+      const syncFocusTitle = ()=>{ const s = sheets.find(x=> String(x.id)===String(currentSheetId)) || sheets[0]; const el=document.getElementById('focus-title'); if(el&&s) el.textContent = `${s.title} · ${s.categories.reduce((n,c)=>n+c.words.length,0)} words`; };
+      document.getElementById('prev-btn')?.addEventListener('click', ()=> gotoSheet(-1));
+      document.getElementById('next-btn')?.addEventListener('click', ()=> gotoSheet(1));
+      document.getElementById('fprev-btn')?.addEventListener('click', ()=> gotoSheet(-1));
+      document.getElementById('fnext-btn')?.addEventListener('click', ()=> gotoSheet(1));
+      document.getElementById('focus-btn')?.addEventListener('click', ()=> setFocus(true));
+      document.getElementById('exit-focus-btn')?.addEventListener('click', ()=> setFocus(false));
       searchInput?.addEventListener('input', e=>{ filterText=e.target.value.trim(); render(); });
+      let wasNarrow = window.innerWidth < 768;
+      window.addEventListener('resize', ()=>{
+        const n = window.innerWidth < 768;
+        if(n !== wasNarrow){ wasNarrow = n; render(); }
+      });
       stopBtn?.addEventListener('click', ()=>{
-        autoplay=false; autoplayBtn.textContent='▶ Auto'; autoplayBtn.classList.remove('bg-rose-500','text-white');
+        autoplay=false; paintAuto();
         window.speechSynthesis.cancel();
-        if(currentBtn) currentBtn.classList.remove('playing');
-        currentBtn=null; setStatus('Stopped'); setTimeout(()=>setStatus('Ready'),800);
+        clearPlaying(); setStatus('Stopped'); setTimeout(()=>setStatus('Ready'),800);
       });
       autoplayBtn?.addEventListener('click', ()=>{
-        if(autoplay){ autoplay=false; autoplayBtn.textContent='▶ Auto'; autoplayBtn.classList.remove('bg-rose-500','text-white'); window.speechSynthesis.cancel(); setStatus('Stopped'); return; }
+        if(autoplay){ autoplay=false; paintAuto(); window.speechSynthesis.cancel(); setStatus('Stopped'); return; }
         autoplayQueue = getAllWordButtons();
         if(!autoplayQueue.length) return;
-        autoplay=true; autoplayIndex=0; autoplayBtn.textContent='⏸ Pause'; autoplayBtn.classList.add('bg-rose-500','text-white');
+        autoplay=true; autoplayIndex=0; paintAuto();
         playNextInQueue();
       });
+      document.getElementById('fauto-btn')?.addEventListener('click', ()=> autoplayBtn.click());
+      document.getElementById('fstop-btn')?.addEventListener('click', ()=> stopBtn.click());
 
       document.addEventListener('keydown', e=>{
         if(e.target.tagName==='INPUT' && e.key!=='Escape') return;
         if(e.key==='/'){ e.preventDefault(); searchInput.focus(); return; }
-        if(e.key==='Escape'){ autoplay=false; autoplayBtn.textContent='▶ Auto'; autoplayBtn.classList.remove('bg-rose-500','text-white'); window.speechSynthesis.cancel(); if(currentBtn) currentBtn.classList.remove('playing'); currentBtn=null; setStatus('Ready'); return; }
+        if(e.key==='Escape'){ autoplay=false; paintAuto(); window.speechSynthesis.cancel(); clearPlaying(); setFocus(false); setStatus('Ready'); return; }
         if(e.key==='Enter' && selectedBtn){ e.preventDefault(); speak(selectedBtn.getAttribute('data-word'), selectedBtn); return; }
         if(e.key==='ArrowDown' || e.key==='ArrowUp'){
           e.preventDefault();
@@ -297,7 +364,7 @@ const totalWords = sheets.reduce((s:any,sh:any)=> s+ sh.categories.reduce((n,c)=
       });
 
       render();
-      setView('cards');
+      syncFocusTitle();
     </script>
   </body>
 </html>

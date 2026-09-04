@@ -1,0 +1,384 @@
+{
+  "id": "36-M",
+  "title": "M",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "M",
+      "words": [
+        {
+          "en": "magic",
+          "ar": "السحر"
+        },
+        {
+          "en": "main",
+          "ar": "أساسي / رئيسي"
+        },
+        {
+          "en": "main sources",
+          "ar": "مصادر رئيسية"
+        },
+        {
+          "en": "major threat",
+          "ar": "تهديد كبير / عظيم"
+        },
+        {
+          "en": "majority",
+          "ar": "الأغلبية"
+        },
+        {
+          "en": "make arrangements",
+          "ar": "يقوم بعمل ترتيبات"
+        },
+        {
+          "en": "make contributions",
+          "ar": "يقدم إسهامات"
+        },
+        {
+          "en": "make efforts",
+          "ar": "يبذل جهودًا"
+        },
+        {
+          "en": "make everything",
+          "ar": "تسوء الأمور"
+        },
+        {
+          "en": "make full use of",
+          "ar": "يستخدم الإستخدام الأمثل"
+        },
+        {
+          "en": "make fun of",
+          "ar": "يسخر من"
+        },
+        {
+          "en": "make good use of",
+          "ar": "يستغل استغلالًا جيدًا لـ"
+        },
+        {
+          "en": "make great efforts",
+          "ar": "يبذل جهودًا عظيمة"
+        },
+        {
+          "en": "make progress",
+          "ar": "يحرز تقدمًا"
+        },
+        {
+          "en": "make the best use of",
+          "ar": "يستغل استغلالًا جيدًا"
+        },
+        {
+          "en": "make up your mind",
+          "ar": "اتخذ قرارك"
+        },
+        {
+          "en": "make us sleepless",
+          "ar": "يقض المضاجع"
+        },
+        {
+          "en": "make use of",
+          "ar": "يستغل"
+        },
+        {
+          "en": "malice = hatred",
+          "ar": "حقد"
+        },
+        {
+          "en": "name after",
+          "ar": "يسمى على"
+        },
+        {
+          "en": "man",
+          "ar": "الإنسان"
+        },
+        {
+          "en": "man of letter",
+          "ar": "أديب"
+        },
+        {
+          "en": "mandarin",
+          "ar": "يوسفى"
+        },
+        {
+          "en": "mankind",
+          "ar": "الجنس البشري"
+        },
+        {
+          "en": "manners",
+          "ar": "أخلاق"
+        },
+        {
+          "en": "map",
+          "ar": "خريطة"
+        },
+        {
+          "en": "march",
+          "ar": "مسيرة"
+        },
+        {
+          "en": "mark of civilization",
+          "ar": "سمة حضارية"
+        },
+        {
+          "en": "marked by",
+          "ar": "يتميز بـ"
+        },
+        {
+          "en": "martyrs",
+          "ar": "شهداء"
+        },
+        {
+          "en": "marvels = wonders",
+          "ar": "عجائب"
+        },
+        {
+          "en": "mass destruction weapons",
+          "ar": "أسلحة دمار شامل"
+        },
+        {
+          "en": "mass information",
+          "ar": "معلومات إجمالية"
+        },
+        {
+          "en": "mass media",
+          "ar": "وسائل الإعلام"
+        },
+        {
+          "en": "massacre/blood bath",
+          "ar": "مذبحة / مجزرة"
+        },
+        {
+          "en": "master's degree",
+          "ar": "درجة الماجستير"
+        },
+        {
+          "en": "masters of art",
+          "ar": "أساتذة الفن"
+        },
+        {
+          "en": "mastery of foreign languages",
+          "ar": "إجادة اللغات"
+        },
+        {
+          "en": "materialistic",
+          "ar": "مادي"
+        },
+        {
+          "en": "materials",
+          "ar": "أدوات / لوازم"
+        },
+        {
+          "en": "matter of life or death",
+          "ar": "مسألة حياة أو موت"
+        },
+        {
+          "en": "maximum income",
+          "ar": "أعلى دخل"
+        },
+        {
+          "en": "means",
+          "ar": "وسيلة / وسائل"
+        },
+        {
+          "en": "means of entertainment",
+          "ar": "وسيلة ترفيه"
+        },
+        {
+          "en": "means to an end",
+          "ar": "وسيلة إلى غاية"
+        },
+        {
+          "en": "measures",
+          "ar": "إجراءات"
+        },
+        {
+          "en": "media / mass media",
+          "ar": "الإعلام / وسائل الأعلام"
+        },
+        {
+          "en": "medical",
+          "ar": "طبى"
+        },
+        {
+          "en": "meeting point",
+          "ar": "نقطة التقاء / ملتقي"
+        },
+        {
+          "en": "members",
+          "ar": "أعضاء"
+        },
+        {
+          "en": "menacing",
+          "ar": "مهدد"
+        },
+        {
+          "en": "mental health",
+          "ar": "صحة عقلية / نفسية"
+        },
+        {
+          "en": "mentioned above",
+          "ar": "المذكور أعلاه"
+        },
+        {
+          "en": "mercy",
+          "ar": "رحمة"
+        },
+        {
+          "en": "methods",
+          "ar": "طرق / وسائل / سُبل"
+        },
+        {
+          "en": "middle east area",
+          "ar": "منطقة الشرق الأوسط"
+        },
+        {
+          "en": "midwife",
+          "ar": "الداية"
+        },
+        {
+          "en": "military forces",
+          "ar": "القوات المسلحة"
+        },
+        {
+          "en": "ministers",
+          "ar": "وزراء"
+        },
+        {
+          "en": "ministry of supply",
+          "ar": "وزارة التموين"
+        },
+        {
+          "en": "minority",
+          "ar": "الأقلية"
+        },
+        {
+          "en": "miracle",
+          "ar": "معجزة"
+        },
+        {
+          "en": "miser = mean",
+          "ar": "بؤس / بخل"
+        },
+        {
+          "en": "miserly (adj.)",
+          "ar": "بخيل"
+        },
+        {
+          "en": "misery",
+          "ar": "البخل / البؤس"
+        },
+        {
+          "en": "mislead",
+          "ar": "يضلل"
+        },
+        {
+          "en": "misleading",
+          "ar": "تضليل"
+        },
+        {
+          "en": "mistakes",
+          "ar": "أخطاء"
+        },
+        {
+          "en": "misunderstanding",
+          "ar": "سوء الفهم"
+        },
+        {
+          "en": "mixed blessing",
+          "ar": "نعمة ونقمة فى آن واحد"
+        },
+        {
+          "en": "mixed results",
+          "ar": "نتائج متضاربة"
+        },
+        {
+          "en": "mode",
+          "ar": "أسلوب / نسق / طريقة"
+        },
+        {
+          "en": "modern means of..",
+          "ar": "وسائل حديثة لـ"
+        },
+        {
+          "en": "modernization",
+          "ar": "تحديث"
+        },
+        {
+          "en": "modernize",
+          "ar": "يحدث"
+        },
+        {
+          "en": "modest",
+          "ar": "متواضع"
+        },
+        {
+          "en": "monopoly of arms",
+          "ar": "احتكار السلاح"
+        },
+        {
+          "en": "monuments",
+          "ar": "آثار"
+        },
+        {
+          "en": "moral",
+          "ar": "أخلاقى / مغزى / عبرة"
+        },
+        {
+          "en": "moral values",
+          "ar": "القيم الأخلاقية"
+        },
+        {
+          "en": "morality",
+          "ar": "الفضيلة / الاخلاق"
+        },
+        {
+          "en": "morals = ethics",
+          "ar": "أخلاق"
+        },
+        {
+          "en": "mother tongue",
+          "ar": "اللغة الأم"
+        },
+        {
+          "en": "mother's day",
+          "ar": "عيد الأم"
+        },
+        {
+          "en": "motivate",
+          "ar": "يحفز / يدفع / يحث"
+        },
+        {
+          "en": "motives",
+          "ar": "حوافز / دوافع"
+        },
+        {
+          "en": "multi-media",
+          "ar": "الوسائط المتعددة"
+        },
+        {
+          "en": "multinational",
+          "ar": "متعدد الجنسيات"
+        },
+        {
+          "en": "mummification",
+          "ar": "تحنيط"
+        },
+        {
+          "en": "mummify",
+          "ar": "يحنط"
+        },
+        {
+          "en": "mummy",
+          "ar": "مومياء"
+        },
+        {
+          "en": "mutual",
+          "ar": "مشترك"
+        },
+        {
+          "en": "mystery",
+          "ar": "سر"
+        }
+      ]
+    }
+  ]
+}

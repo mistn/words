@@ -1,0 +1,464 @@
+{
+  "id": "24-A",
+  "title": "A",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "A",
+      "words": [
+        {
+          "en": "abject poverty",
+          "ar": "فقر مدقع"
+        },
+        {
+          "en": "abnormal",
+          "ar": "شاذ / غير سوى"
+        },
+        {
+          "en": "abuse",
+          "ar": "يسىء معاملة"
+        },
+        {
+          "en": "abuse = misuse",
+          "ar": "يسىء استخدام"
+        },
+        {
+          "en": "abuse of power",
+          "ar": "سوء استخدام السلطة"
+        },
+        {
+          "en": "accidentally",
+          "ar": "بالصدفة"
+        },
+        {
+          "en": "according to",
+          "ar": "بناءً على"
+        },
+        {
+          "en": "accountant",
+          "ar": "محاسب"
+        },
+        {
+          "en": "accurate",
+          "ar": "دقيق"
+        },
+        {
+          "en": "accurately",
+          "ar": "بدقة"
+        },
+        {
+          "en": "accuse",
+          "ar": "يتهم"
+        },
+        {
+          "en": "accused",
+          "ar": "متهم"
+        },
+        {
+          "en": "achieve",
+          "ar": "يحقق/ ينجز"
+        },
+        {
+          "en": "achieve much",
+          "ar": "يحقق تقدمًا كبيرًا"
+        },
+        {
+          "en": "achievement",
+          "ar": "انجاز"
+        },
+        {
+          "en": "achieving = realizing",
+          "ar": "تحقيق"
+        },
+        {
+          "en": "acquire knowledge",
+          "ar": "يكتسب المعرفة"
+        },
+        {
+          "en": "acting upon",
+          "ar": "بناء على طلب"
+        },
+        {
+          "en": "activate",
+          "ar": "تنشط"
+        },
+        {
+          "en": "activists",
+          "ar": "النشطاء"
+        },
+        {
+          "en": "activity",
+          "ar": "نشاط"
+        },
+        {
+          "en": "acts of terrorism",
+          "ar": "أعمال إرهابية"
+        },
+        {
+          "en": "acute shortage",
+          "ar": "نقص حاد"
+        },
+        {
+          "en": "adapt",
+          "ar": "يتكيف"
+        },
+        {
+          "en": "adaptation",
+          "ar": "التكيف / التأقلم"
+        },
+        {
+          "en": "addiction",
+          "ar": "إدمان"
+        },
+        {
+          "en": "addressing",
+          "ar": "معالجة"
+        },
+        {
+          "en": "admit",
+          "ar": "يعترف"
+        },
+        {
+          "en": "adopt",
+          "ar": "يتبنى"
+        },
+        {
+          "en": "advance = progress",
+          "ar": "التقدم"
+        },
+        {
+          "en": "advanced",
+          "ar": "متقدم"
+        },
+        {
+          "en": "advanced countries",
+          "ar": "الدول المتقدمة"
+        },
+        {
+          "en": "advantages",
+          "ar": "مميزات"
+        },
+        {
+          "en": "advertisements",
+          "ar": "الإعلانات"
+        },
+        {
+          "en": "affect",
+          "ar": "يؤثر علي"
+        },
+        {
+          "en": "after a request from",
+          "ar": "بناءً على طلب"
+        },
+        {
+          "en": "against",
+          "ar": "ضد"
+        },
+        {
+          "en": "age",
+          "ar": "العصر"
+        },
+        {
+          "en": "aggression",
+          "ar": "اعتداء"
+        },
+        {
+          "en": "aggressive",
+          "ar": "عدوانى"
+        },
+        {
+          "en": "agricultural",
+          "ar": "زراعي"
+        },
+        {
+          "en": "agriculture",
+          "ar": "الزراعة"
+        },
+        {
+          "en": "aid",
+          "ar": "المعونات / المساعدات"
+        },
+        {
+          "en": "aim at",
+          "ar": "يهدف الي"
+        },
+        {
+          "en": "aimless (adj.)",
+          "ar": "بلا هدف / بلاغاية"
+        },
+        {
+          "en": "air pollution",
+          "ar": "تلوث الهواء"
+        },
+        {
+          "en": "alike",
+          "ar": "علي حد سواء"
+        },
+        {
+          "en": "all of us",
+          "ar": "كلنا جميعا"
+        },
+        {
+          "en": "all over the world",
+          "ar": "فى جميع أنحاء العالم"
+        },
+        {
+          "en": "almost",
+          "ar": "تقريبًا"
+        },
+        {
+          "en": "amateur",
+          "ar": "هاوٍ"
+        },
+        {
+          "en": "ambiguity",
+          "ar": "غموض"
+        },
+        {
+          "en": "ambiguous",
+          "ar": "غامض"
+        },
+        {
+          "en": "ambition",
+          "ar": "طُموح"
+        },
+        {
+          "en": "ambitious (adj.)",
+          "ar": "طموح"
+        },
+        {
+          "en": "among",
+          "ar": "بين أكثرمن اثنين/من ضمن"
+        },
+        {
+          "en": "amuse",
+          "ar": "يسلى"
+        },
+        {
+          "en": "amusement",
+          "ar": "الملاهى"
+        },
+        {
+          "en": "amusement park",
+          "ar": "مدينة الملاهى"
+        },
+        {
+          "en": "ancestors",
+          "ar": "الأسلاف"
+        },
+        {
+          "en": "ancient monuments",
+          "ar": "آثار قديمة"
+        },
+        {
+          "en": "and vice versa",
+          "ar": "والعكس صحيح"
+        },
+        {
+          "en": "angry",
+          "ar": "غاضب"
+        },
+        {
+          "en": "annoyed",
+          "ar": "متضايق"
+        },
+        {
+          "en": "anti-regime",
+          "ar": "ضد النظام"
+        },
+        {
+          "en": "antibiotic",
+          "ar": "مضاد حيوى"
+        },
+        {
+          "en": "anti-Islamic",
+          "ar": "تتعارض مع الإسلام"
+        },
+        {
+          "en": "anti-smoking campaign",
+          "ar": "حملة ضد التدخين"
+        },
+        {
+          "en": "any time you wish",
+          "ar": "في أي وقت تشاء"
+        },
+        {
+          "en": "Arab affairs",
+          "ar": "الشئون العربية"
+        },
+        {
+          "en": "Arab common market",
+          "ar": "سوق عربية مشتركة"
+        },
+        {
+          "en": "Arab league",
+          "ar": "جامعة الدول العربية"
+        },
+        {
+          "en": "Arab solidarity",
+          "ar": "التضامن العربى"
+        },
+        {
+          "en": "argument",
+          "ar": "جدال"
+        },
+        {
+          "en": "argumentative",
+          "ar": "مثير للجدل"
+        },
+        {
+          "en": "arise from",
+          "ar": "تنجم عن"
+        },
+        {
+          "en": "armed forces",
+          "ar": "القوات المسلحة"
+        },
+        {
+          "en": "arouse",
+          "ar": "يثير / يستحث"
+        },
+        {
+          "en": "articles of constitution",
+          "ar": "بنود / مواد الدستور"
+        },
+        {
+          "en": "artificial lake",
+          "ar": "بحيرة اصطناعية"
+        },
+        {
+          "en": "as for",
+          "ar": "بالنسبة لـ"
+        },
+        {
+          "en": "as much as possible",
+          "ar": "بقدر الإمكان"
+        },
+        {
+          "en": "ask for an",
+          "ar": "يستوضح عن"
+        },
+        {
+          "en": "assets",
+          "ar": "أصول"
+        },
+        {
+          "en": "astronaut",
+          "ar": "رائد فضاء"
+        },
+        {
+          "en": "at a rate of",
+          "ar": "بمعدل"
+        },
+        {
+          "en": "at all depends",
+          "ar": "حسب الظروف"
+        },
+        {
+          "en": "at an alarming rate",
+          "ar": "بمعدل مزعج"
+        },
+        {
+          "en": "at his prime",
+          "ar": "فى ريعان شبابه"
+        },
+        {
+          "en": "at the age of",
+          "ar": "فى عمر / فى سن"
+        },
+        {
+          "en": "at the height of his youth",
+          "ar": "فى ريعان شبابه"
+        },
+        {
+          "en": "atmosphere",
+          "ar": "جو"
+        },
+        {
+          "en": "atomic energy",
+          "ar": "الطاقة الذرية"
+        },
+        {
+          "en": "atomic waste",
+          "ar": "نفايات ذرية"
+        },
+        {
+          "en": "attach",
+          "ar": "يرفق"
+        },
+        {
+          "en": "attempt murder",
+          "ar": "شروع فى قتل"
+        },
+        {
+          "en": "attention",
+          "ar": "انتباه"
+        },
+        {
+          "en": "attitude",
+          "ar": "سلوك / موقف"
+        },
+        {
+          "en": "attitudes",
+          "ar": "اتجاهات"
+        },
+        {
+          "en": "attract",
+          "ar": "يجذب"
+        },
+        {
+          "en": "attraction",
+          "ar": "جاذبية"
+        },
+        {
+          "en": "attractions",
+          "ar": "أماكن جذب"
+        },
+        {
+          "en": "attractive",
+          "ar": "جذاب"
+        },
+        {
+          "en": "audience",
+          "ar": "الجمهور"
+        },
+        {
+          "en": "author",
+          "ar": "مؤلف"
+        },
+        {
+          "en": "authority = power",
+          "ar": "السلطة"
+        },
+        {
+          "en": "authorized sources",
+          "ar": "مصادر موثوق بها"
+        },
+        {
+          "en": "autobiography",
+          "ar": "السيرة الذاتية للشخص نفسه"
+        },
+        {
+          "en": "available",
+          "ar": "متاح / متوفر / ميسر"
+        },
+        {
+          "en": "avoid",
+          "ar": "يتفادى / يتجنب"
+        },
+        {
+          "en": "award",
+          "ar": "مكافئة"
+        },
+        {
+          "en": "aware of",
+          "ar": "واعٍ لـ / مطلع على/ مدرك"
+        },
+        {
+          "en": "awareness",
+          "ar": "وعى / معرفة"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "id": "39-P",
+  "title": "P",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "P",
+      "words": [
+        {
+          "en": "pack",
+          "ar": "يعبء / يحزم امتعة"
+        },
+        {
+          "en": "package",
+          "ar": "طرد / رزمة"
+        },
+        {
+          "en": "pain",
+          "ar": "ألم"
+        },
+        {
+          "en": "pains",
+          "ar": "ألام"
+        },
+        {
+          "en": "palace",
+          "ar": "قصر"
+        },
+        {
+          "en": "Palestinian issue",
+          "ar": "القضية الفلسطينية"
+        },
+        {
+          "en": "paradise",
+          "ar": "جنة"
+        },
+        {
+          "en": "part and parcel",
+          "ar": "جزءٌ لايتجزء"
+        },
+        {
+          "en": "part-own",
+          "ar": "يشارك فى ملكية"
+        },
+        {
+          "en": "participate in",
+          "ar": "يشارك فى"
+        },
+        {
+          "en": "party",
+          "ar": "الطرف / حزب"
+        },
+        {
+          "en": "pass from...to...",
+          "ar": "ينتقل من ... إلى"
+        },
+        {
+          "en": "passive",
+          "ar": "سلبى / بليد"
+        },
+        {
+          "en": "patience",
+          "ar": "صبر"
+        },
+        {
+          "en": "patient",
+          "ar": "صبور / مريض"
+        },
+        {
+          "en": "patriotism",
+          "ar": "الوطنية / حب الوطن"
+        },
+        {
+          "en": "patriot (n.)",
+          "ar": "وطنى / محب لوطنه"
+        },
+        {
+          "en": "patriotic (adj.)",
+          "ar": "وطنى"
+        },
+        {
+          "en": "pave the way to",
+          "ar": "يمهد الطريق لـ"
+        },
+        {
+          "en": "pay attention to",
+          "ar": "ينتبه إلى"
+        },
+        {
+          "en": "pay much attention",
+          "ar": "يعطى اهتمامًا كبيرًا لـ"
+        },
+        {
+          "en": "peace",
+          "ar": "سلام"
+        },
+        {
+          "en": "peace conference",
+          "ar": "مؤتمر السلام"
+        },
+        {
+          "en": "peace loving",
+          "ar": "محبة للسلام"
+        },
+        {
+          "en": "peace loving country",
+          "ar": "بلد محب للسلام"
+        },
+        {
+          "en": "peace prevails",
+          "ar": "يسود السلام"
+        },
+        {
+          "en": "peace process",
+          "ar": "عملية السلام"
+        },
+        {
+          "en": "peace talks",
+          "ar": "محادثات السلام"
+        },
+        {
+          "en": "peace treaty",
+          "ar": "معاهدة سلام"
+        },
+        {
+          "en": "peace of mind",
+          "ar": "راحة البال"
+        },
+        {
+          "en": "peaceful march",
+          "ar": "مسيرة سلمية"
+        },
+        {
+          "en": "peacefully",
+          "ar": "سلميًا / على نحو سلمى"
+        },
+        {
+          "en": "pension",
+          "ar": "معاش"
+        },
+        {
+          "en": "perform a play",
+          "ar": "يعرض مسرحية"
+        },
+        {
+          "en": "perseverance",
+          "ar": "مثابرة"
+        },
+        {
+          "en": "personal interests",
+          "ar": "المصالح الشخصية"
+        },
+        {
+          "en": "persuade",
+          "ar": "يقنع"
+        },
+        {
+          "en": "pessimism",
+          "ar": "تشاؤم"
+        },
+        {
+          "en": "pessimistic = gloomy",
+          "ar": "متشائم / عابس"
+        },
+        {
+          "en": "pests",
+          "ar": "آفات"
+        },
+        {
+          "en": "pillar",
+          "ar": "دعامة"
+        },
+        {
+          "en": "pills",
+          "ar": "أقراص / حبوب"
+        },
+        {
+          "en": "pioneering",
+          "ar": "رائد / ريادى"
+        },
+        {
+          "en": "pioneering role",
+          "ar": "دور رائد"
+        },
+        {
+          "en": "pioneers",
+          "ar": "رواد"
+        },
+        {
+          "en": "pious",
+          "ar": "تقى"
+        },
+        {
+          "en": "plague",
+          "ar": "طاعون / وباء"
+        },
+        {
+          "en": "planets",
+          "ar": "كواكب"
+        },
+        {
+          "en": "platform",
+          "ar": "رصيف القطار"
+        },
+        {
+          "en": "play cards",
+          "ar": "يلعب كوتشينة"
+        },
+        {
+          "en": "please the humanity",
+          "ar": "يسعد البشرية"
+        },
+        {
+          "en": "pledge",
+          "ar": "تعهد"
+        },
+        {
+          "en": "plot",
+          "ar": "يتآمر / مؤمرة / حبكة"
+        },
+        {
+          "en": "plotter",
+          "ar": "متآمر"
+        },
+        {
+          "en": "poem",
+          "ar": "قصيدة"
+        },
+        {
+          "en": "poet",
+          "ar": "شاعر"
+        },
+        {
+          "en": "poetry",
+          "ar": "شعر"
+        },
+        {
+          "en": "point of view",
+          "ar": "وجهة نظر"
+        },
+        {
+          "en": "poison",
+          "ar": "سم / يسمم"
+        },
+        {
+          "en": "poisonous",
+          "ar": "سام"
+        },
+        {
+          "en": "police day",
+          "ar": "عيد الشرطة"
+        },
+        {
+          "en": "policy",
+          "ar": "السياسة"
+        },
+        {
+          "en": "political",
+          "ar": "سياسى"
+        },
+        {
+          "en": "political attitude",
+          "ar": "الموقف السياسى"
+        },
+        {
+          "en": "political crisis",
+          "ar": "أزمة سياسية"
+        },
+        {
+          "en": "political party",
+          "ar": "حزب سياسى"
+        },
+        {
+          "en": "polling stations",
+          "ar": "مراكز الاقتراع"
+        },
+        {
+          "en": "pollutants",
+          "ar": "ملوثات"
+        },
+        {
+          "en": "polluted",
+          "ar": "ملوث"
+        },
+        {
+          "en": "polluted area",
+          "ar": "منطقة ملوثة"
+        },
+        {
+          "en": "pollution",
+          "ar": "التلوث"
+        },
+        {
+          "en": "population",
+          "ar": "الإنفجار السكانى"
+        },
+        {
+          "en": "positive",
+          "ar": "إيجابى / واثق من نفسه"
+        },
+        {
+          "en": "possess = own",
+          "ar": "يمتلك"
+        },
+        {
+          "en": "post-graduation",
+          "ar": "دراسات عليا"
+        },
+        {
+          "en": "postpone = put off",
+          "ar": "يؤجل"
+        },
+        {
+          "en": "poverty",
+          "ar": "الفقر"
+        },
+        {
+          "en": "power",
+          "ar": "قوة / سلطة"
+        },
+        {
+          "en": "practice makes perfect",
+          "ar": "الممارسة تؤدى للإتقان"
+        },
+        {
+          "en": "practicing",
+          "ar": "ممارسة"
+        },
+        {
+          "en": "practise",
+          "ar": "يمارس"
+        },
+        {
+          "en": "praise",
+          "ar": "يمدح"
+        },
+        {
+          "en": "predict",
+          "ar": "يتنبأ"
+        },
+        {
+          "en": "pre-packed",
+          "ar": "جاهزة"
+        },
+        {
+          "en": "prescription",
+          "ar": "روشتة طبية"
+        },
+        {
+          "en": "present policy",
+          "ar": "السياسة الحالية"
+        },
+        {
+          "en": "Preservation",
+          "ar": "الحفظ"
+        },
+        {
+          "en": "preserve",
+          "ar": "يحفظ"
+        },
+        {
+          "en": "president",
+          "ar": "رئيس"
+        },
+        {
+          "en": "press agency",
+          "ar": "وكالة دعاية وإعلان"
+        },
+        {
+          "en": "press conference",
+          "ar": "مؤتمر صحفى"
+        },
+        {
+          "en": "pressing problems",
+          "ar": "مشاكل ملحة"
+        },
+        {
+          "en": "pressure",
+          "ar": "الضغط"
+        },
+        {
+          "en": "prevail",
+          "ar": "يعم / يسود"
+        },
+        {
+          "en": "prevent = protect",
+          "ar": "يحمى / يقى"
+        },
+        {
+          "en": "prevention",
+          "ar": "وقاية"
+        },
+        {
+          "en": "preventive",
+          "ar": "وقائى"
+        },
+        {
+          "en": "priceless",
+          "ar": "لا تقدر بثمن"
+        },
+        {
+          "en": "pride",
+          "ar": "فخر / يتفاخر"
+        },
+        {
+          "en": "primary education",
+          "ar": "تعليم إبتدائى"
+        },
+        {
+          "en": "primitive",
+          "ar": "بدائي"
+        },
+        {
+          "en": "principals",
+          "ar": "ناظر"
+        },
+        {
+          "en": "principal",
+          "ar": "رئيسي / أساسي"
+        },
+        {
+          "en": "principles",
+          "ar": "مبادئ"
+        },
+        {
+          "en": "priorities of the new",
+          "ar": "أولويات الحكومة"
+        },
+        {
+          "en": "prison",
+          "ar": "سجن"
+        },
+        {
+          "en": "private associations",
+          "ar": "الجمعيات الأهلية"
+        },
+        {
+          "en": "private firms",
+          "ar": "المؤسسات الخاصة"
+        },
+        {
+          "en": "private sector",
+          "ar": "قطاع خاص"
+        },
+        {
+          "en": "privatization",
+          "ar": "الخصخصة"
+        },
+        {
+          "en": "problem of housing",
+          "ar": "مشكلة الإسكان"
+        },
+        {
+          "en": "procedures",
+          "ar": "إجراءات"
+        },
+        {
+          "en": "produce",
+          "ar": "ينتج"
+        },
+        {
+          "en": "product",
+          "ar": "منتج"
+        },
+        {
+          "en": "production",
+          "ar": "إنتاج"
+        },
+        {
+          "en": "production wheel",
+          "ar": "عجلة الإنتاج"
+        },
+        {
+          "en": "professional",
+          "ar": "محترف"
+        },
+        {
+          "en": "progress = advance",
+          "ar": "تقدم"
+        },
+        {
+          "en": "promising",
+          "ar": "واعد"
+        },
+        {
+          "en": "promising youth",
+          "ar": "الشباب الواعد"
+        },
+        {
+          "en": "promote",
+          "ar": "يترقى"
+        },
+        {
+          "en": "promotion",
+          "ar": "ترقية / ترويج"
+        },
+        {
+          "en": "proof",
+          "ar": "دليل / برهان"
+        },
+        {
+          "en": "propaganda",
+          "ar": "دعاية"
+        },
+        {
+          "en": "prose",
+          "ar": "نثر"
+        },
+        {
+          "en": "prosperity",
+          "ar": "الرخاء"
+        },
+        {
+          "en": "prosperous society",
+          "ar": "مجتمع الرخاء"
+        },
+        {
+          "en": "protect our property",
+          "ar": "يحمى ممتلكات"
+        },
+        {
+          "en": "protest",
+          "ar": "يحتج / احتجاج"
+        },
+        {
+          "en": "protesters",
+          "ar": "المحتجون"
+        },
+        {
+          "en": "prove",
+          "ar": "يبرهن / يثبت"
+        },
+        {
+          "en": "prove (2)",
+          "ar": "يثبت / يبرهن"
+        },
+        {
+          "en": "prove himself",
+          "ar": "يثبت ذاته"
+        },
+        {
+          "en": "prove that",
+          "ar": "يثبت أن"
+        },
+        {
+          "en": "provide",
+          "ar": "يوفر / يزود"
+        },
+        {
+          "en": "provide = supply",
+          "ar": "يمد / يزود بـ"
+        },
+        {
+          "en": "public figures",
+          "ar": "شخصيات عامة"
+        },
+        {
+          "en": "public morals",
+          "ar": "الآداب العامة"
+        },
+        {
+          "en": "public relations",
+          "ar": "علاقات عامة"
+        },
+        {
+          "en": "public sector",
+          "ar": "القطاع العام"
+        },
+        {
+          "en": "public transport",
+          "ar": "النقل العام"
+        },
+        {
+          "en": "punctual",
+          "ar": "مواظب على المواعيد"
+        },
+        {
+          "en": "punish",
+          "ar": "يعاقب"
+        },
+        {
+          "en": "punishment",
+          "ar": "العقاب"
+        },
+        {
+          "en": "purify air",
+          "ar": "ينقى الهواء"
+        },
+        {
+          "en": "purpose",
+          "ar": "غرض / هدف"
+        },
+        {
+          "en": "put an end to",
+          "ar": "يضع حدًا لـ"
+        },
+        {
+          "en": "put on weight",
+          "ar": "يزداد وزنًا"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "17-Sciences",
+  "title": "⑰ Sciences",
+  "source": "Toppers Dictionary Part 1",
+  "categories": [
+    {
+      "category": "⑰ Sciences",
+      "words": [
+        {
+          "en": "anatomy",
+          "ar": "علم التشريح"
+        },
+        {
+          "en": "anthropology",
+          "ar": "علم دراسة الإنسان"
+        },
+        {
+          "en": "archaeology",
+          "ar": "علم الآثار"
+        },
+        {
+          "en": "astrology",
+          "ar": "علم التنجيم"
+        },
+        {
+          "en": "astronomy",
+          "ar": "علم الفلك"
+        },
+        {
+          "en": "bacteriology",
+          "ar": "علم البكتريا"
+        },
+        {
+          "en": "biochemistry",
+          "ar": "كيمياء عضوية"
+        },
+        {
+          "en": "biology",
+          "ar": "علم الأحياء"
+        },
+        {
+          "en": "botany",
+          "ar": "علم النبات"
+        },
+        {
+          "en": "ecology",
+          "ar": "علم البيئة"
+        },
+        {
+          "en": "Egyptology",
+          "ar": "علم المصريات"
+        },
+        {
+          "en": "eugenics",
+          "ar": "علم تحسين النسل"
+        },
+        {
+          "en": "linguistics",
+          "ar": "علم اللغة"
+        },
+        {
+          "en": "neurology",
+          "ar": "علم الأعصاب"
+        },
+        {
+          "en": "ornithology",
+          "ar": "علم الطيور"
+        },
+        {
+          "en": "pathology",
+          "ar": "علم أمراض الدم"
+        },
+        {
+          "en": "phonetics",
+          "ar": "علم الصوتيات"
+        },
+        {
+          "en": "physiology",
+          "ar": "علم الفلسفة"
+        },
+        {
+          "en": "psychoanalysis",
+          "ar": "علم التحليل النفسى"
+        },
+        {
+          "en": "psychology",
+          "ar": "علم النفس"
+        },
+        {
+          "en": "sociology",
+          "ar": "علم الإجتماع"
+        },
+        {
+          "en": "zoology",
+          "ar": "علم الحيوان"
+        }
+      ]
+    }
+  ]
+}

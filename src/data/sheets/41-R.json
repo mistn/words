@@ -1,0 +1,420 @@
+{
+  "id": "41-R",
+  "title": "R",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "R",
+      "words": [
+        {
+          "en": "race",
+          "ar": "سباق"
+        },
+        {
+          "en": "raise the standard of living",
+          "ar": "يرفع مستوى المعيشة"
+        },
+        {
+          "en": "rally",
+          "ar": "يحشد / يحتشد"
+        },
+        {
+          "en": "range from",
+          "ar": "يمتد من"
+        },
+        {
+          "en": "ranks",
+          "ar": "طبقات"
+        },
+        {
+          "en": "rape",
+          "ar": "يغتصب"
+        },
+        {
+          "en": "rapid growth",
+          "ar": "نمو سريع"
+        },
+        {
+          "en": "rate",
+          "ar": "معدل"
+        },
+        {
+          "en": "ratio",
+          "ar": "نسبة"
+        },
+        {
+          "en": "rationalization",
+          "ar": "ترشيد (الإستهلاك)"
+        },
+        {
+          "en": "rationalize",
+          "ar": "يرشد"
+        },
+        {
+          "en": "rationalizing",
+          "ar": "ترشيد"
+        },
+        {
+          "en": "reach = get to",
+          "ar": "يصل إلي"
+        },
+        {
+          "en": "react to",
+          "ar": "يستجيب لـ"
+        },
+        {
+          "en": "reaction",
+          "ar": "رد فعل"
+        },
+        {
+          "en": "read out",
+          "ar": "يقرأ بصوت عالٍ"
+        },
+        {
+          "en": "reading for all",
+          "ar": "القراءة للجميع"
+        },
+        {
+          "en": "real pleasure",
+          "ar": "سعادة حقيقية"
+        },
+        {
+          "en": "realism",
+          "ar": "واقعية"
+        },
+        {
+          "en": "realistic solutions",
+          "ar": "حلول واقعية"
+        },
+        {
+          "en": "rebel",
+          "ar": "يثور / يتمرد"
+        },
+        {
+          "en": "rebellion",
+          "ar": "تمرد / عصيان / ثورة"
+        },
+        {
+          "en": "rebels",
+          "ar": "ثوار / متمردون"
+        },
+        {
+          "en": "recent age",
+          "ar": "العصر الحالي"
+        },
+        {
+          "en": "reckless",
+          "ar": "غير مبالٍ"
+        },
+        {
+          "en": "reclaiming desert",
+          "ar": "استصلاح الصحراء"
+        },
+        {
+          "en": "reconsider",
+          "ar": "يعيد النظر"
+        },
+        {
+          "en": "reconstruction",
+          "ar": "التعمير"
+        },
+        {
+          "en": "recover",
+          "ar": "يشفى / يتعافي"
+        },
+        {
+          "en": "recovery",
+          "ar": "شفاء"
+        },
+        {
+          "en": "recreation",
+          "ar": "ترويح / استجمام"
+        },
+        {
+          "en": "recycling",
+          "ar": "إعادة تصنيع / تدوير"
+        },
+        {
+          "en": "reflect",
+          "ar": "يعكس"
+        },
+        {
+          "en": "reform",
+          "ar": "الإصلاح"
+        },
+        {
+          "en": "refreshments",
+          "ar": "مرطبات"
+        },
+        {
+          "en": "regional",
+          "ar": "إقليمي"
+        },
+        {
+          "en": "regulate",
+          "ar": "ينظم"
+        },
+        {
+          "en": "reinforce",
+          "ar": "يعزز"
+        },
+        {
+          "en": "reinforcement",
+          "ar": "تعزيز"
+        },
+        {
+          "en": "reject",
+          "ar": "ينبذ / يرفض"
+        },
+        {
+          "en": "reject foreign interference",
+          "ar": "نرفض تدخل أجنبى"
+        },
+        {
+          "en": "related to",
+          "ar": "متعلق بـ / مرتبط بـ"
+        },
+        {
+          "en": "relation",
+          "ar": "العلاقة"
+        },
+        {
+          "en": "relax",
+          "ar": "يسترخي"
+        },
+        {
+          "en": "relaxation",
+          "ar": "الإسترخاء"
+        },
+        {
+          "en": "religion",
+          "ar": "الدين"
+        },
+        {
+          "en": "religious programmes",
+          "ar": "البرامج الدينية"
+        },
+        {
+          "en": "remains",
+          "ar": "بقايا آثار / اطلال"
+        },
+        {
+          "en": "remarks",
+          "ar": "ملاحظات"
+        },
+        {
+          "en": "remedial tourism",
+          "ar": "السياحة العلاجية"
+        },
+        {
+          "en": "remnants",
+          "ar": "فلول"
+        },
+        {
+          "en": "remote areas",
+          "ar": "مناطق بعيدة أو نائية"
+        },
+        {
+          "en": "renaissance",
+          "ar": "نهضة"
+        },
+        {
+          "en": "renew",
+          "ar": "يجدد"
+        },
+        {
+          "en": "renewable energy",
+          "ar": "الطاقة المتجددة"
+        },
+        {
+          "en": "replace",
+          "ar": "يستبدل"
+        },
+        {
+          "en": "replacement",
+          "ar": "استبدال"
+        },
+        {
+          "en": "reportage",
+          "ar": "تحقيق صحفى"
+        },
+        {
+          "en": "represent",
+          "ar": "يمثل / ينوب عن"
+        },
+        {
+          "en": "reproduce",
+          "ar": "يتكاثر"
+        },
+        {
+          "en": "reproduction",
+          "ar": "تكاثر"
+        },
+        {
+          "en": "reputation",
+          "ar": "سمعة"
+        },
+        {
+          "en": "reputed",
+          "ar": "حسن السمعة"
+        },
+        {
+          "en": "require",
+          "ar": "يتطلب"
+        },
+        {
+          "en": "requirements",
+          "ar": "متطلبات"
+        },
+        {
+          "en": "resign",
+          "ar": "يستقيل"
+        },
+        {
+          "en": "resist",
+          "ar": "يقاوم"
+        },
+        {
+          "en": "resist diseases",
+          "ar": "يقاوم الأمراض"
+        },
+        {
+          "en": "resistance",
+          "ar": "مقاومة"
+        },
+        {
+          "en": "resort = spa",
+          "ar": "منتجع"
+        },
+        {
+          "en": "resource",
+          "ar": "مورد"
+        },
+        {
+          "en": "respect",
+          "ar": "أحترام / يحترم"
+        },
+        {
+          "en": "responsibility",
+          "ar": "مسئولية"
+        },
+        {
+          "en": "responsible for",
+          "ar": "مسئول عن"
+        },
+        {
+          "en": "result from",
+          "ar": "ينتج عن"
+        },
+        {
+          "en": "result in = cause",
+          "ar": "يسبب"
+        },
+        {
+          "en": "retire",
+          "ar": "يتقاعد / يعتزل"
+        },
+        {
+          "en": "revenue",
+          "ar": "عائد"
+        },
+        {
+          "en": "revolt",
+          "ar": "ثورة"
+        },
+        {
+          "en": "revolution",
+          "ar": "ثورة"
+        },
+        {
+          "en": "revolutionary",
+          "ar": "ثورى"
+        },
+        {
+          "en": "revolutionary front",
+          "ar": "جبهة ثورية"
+        },
+        {
+          "en": "revolutionist",
+          "ar": "الثائر / الثورى"
+        },
+        {
+          "en": "riches",
+          "ar": "الغني / ثروات"
+        },
+        {
+          "en": "rights",
+          "ar": "حقوق"
+        },
+        {
+          "en": "riots",
+          "ar": "أحداث شغب / اضطرابات"
+        },
+        {
+          "en": "rival factions",
+          "ar": "فصائل متنافسة"
+        },
+        {
+          "en": "rival parties",
+          "ar": "أحزاب متنافسة"
+        },
+        {
+          "en": "road map plan",
+          "ar": "خريطة الطريق"
+        },
+        {
+          "en": "robbery with violence",
+          "ar": "سرقة بالإكراة"
+        },
+        {
+          "en": "role",
+          "ar": "دور"
+        },
+        {
+          "en": "roots",
+          "ar": "جذور"
+        },
+        {
+          "en": "route",
+          "ar": "طريق / مسار"
+        },
+        {
+          "en": "rubbish dumps",
+          "ar": "مقالب القمامة / النفايات"
+        },
+        {
+          "en": "ruins",
+          "ar": "دمار"
+        },
+        {
+          "en": "run",
+          "ar": "يدير"
+        },
+        {
+          "en": "run business",
+          "ar": "يدير عملاً"
+        },
+        {
+          "en": "run offs",
+          "ar": "جولات الإعادة"
+        },
+        {
+          "en": "run out of",
+          "ar": "ينفذ مالية"
+        },
+        {
+          "en": "running for",
+          "ar": "مرشح لمنصب الرئيس"
+        },
+        {
+          "en": "rural",
+          "ar": "ريفي"
+        },
+        {
+          "en": "rush hours",
+          "ar": "ساعات الذروة"
+        }
+      ]
+    }
+  ]
+}

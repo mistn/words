@@ -1,0 +1,632 @@
+{
+  "id": "42-S",
+  "title": "S",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "S",
+      "words": [
+        {
+          "en": "sacrifice",
+          "ar": "يضحى / تضحية"
+        },
+        {
+          "en": "safety",
+          "ar": "أمن"
+        },
+        {
+          "en": "salute the flag",
+          "ar": "يحيى العلم"
+        },
+        {
+          "en": "sanctions",
+          "ar": "عقوبات"
+        },
+        {
+          "en": "sanitation",
+          "ar": "النظافة العامة"
+        },
+        {
+          "en": "satisfaction",
+          "ar": "رضا / اشباع / قناعة"
+        },
+        {
+          "en": "satisfied",
+          "ar": "راضٍ / قانع"
+        },
+        {
+          "en": "satisfy",
+          "ar": "يُرضي"
+        },
+        {
+          "en": "save time and effort",
+          "ar": "توفر الوقت والجهد"
+        },
+        {
+          "en": "savings",
+          "ar": "مدخرات"
+        },
+        {
+          "en": "scarce",
+          "ar": "نادر"
+        },
+        {
+          "en": "scenery",
+          "ar": "منظر طبيعى"
+        },
+        {
+          "en": "scholarship",
+          "ar": "منحة دراسية"
+        },
+        {
+          "en": "school fees",
+          "ar": "مصروفات مدرسية"
+        },
+        {
+          "en": "science",
+          "ar": "العلم"
+        },
+        {
+          "en": "science fiction",
+          "ar": "الخيال العلمى"
+        },
+        {
+          "en": "scientific research",
+          "ar": "البحث العلمى"
+        },
+        {
+          "en": "scientific solutions",
+          "ar": "حلول علمية"
+        },
+        {
+          "en": "search and rescue",
+          "ar": "بحث وانقاذ"
+        },
+        {
+          "en": "search for",
+          "ar": "يبحث عن"
+        },
+        {
+          "en": "secondary education",
+          "ar": "تعليم ثانوى"
+        },
+        {
+          "en": "sectarian clingings",
+          "ar": "الإعتصامات الفئوية"
+        },
+        {
+          "en": "sectarian strife",
+          "ar": "فتنة طائفية"
+        },
+        {
+          "en": "sector",
+          "ar": "قطاع"
+        },
+        {
+          "en": "secure",
+          "ar": "يؤمن"
+        },
+        {
+          "en": "security",
+          "ar": "الأمن"
+        },
+        {
+          "en": "security council",
+          "ar": "مجلس الأمن"
+        },
+        {
+          "en": "security vacuum",
+          "ar": "فراغ أمنى"
+        },
+        {
+          "en": "seek",
+          "ar": "السعي / يسعي"
+        },
+        {
+          "en": "seek other's advice",
+          "ar": "يسعى من أجل نصيحة"
+        },
+        {
+          "en": "seek to",
+          "ar": "يسعى إلى"
+        },
+        {
+          "en": "seizure",
+          "ar": "مصادرة / استيلاء"
+        },
+        {
+          "en": "seize power",
+          "ar": "يستولى على السلطة"
+        },
+        {
+          "en": "self sufficiency",
+          "ar": "الإكتفاء الذاتي"
+        },
+        {
+          "en": "self-confident",
+          "ar": "واثق من نفسه"
+        },
+        {
+          "en": "self-confidence",
+          "ar": "الثقة بالنفس"
+        },
+        {
+          "en": "self-control",
+          "ar": "ضبط النفس"
+        },
+        {
+          "en": "self-dependence",
+          "ar": "الإعتماد على النفس"
+        },
+        {
+          "en": "self-reliance",
+          "ar": "الإعتماد علي النفس"
+        },
+        {
+          "en": "self-rule",
+          "ar": "الحكم الذاتى"
+        },
+        {
+          "en": "self-sufficiency",
+          "ar": "الإكتفاءالذاتي"
+        },
+        {
+          "en": "seminar",
+          "ar": "ندوة"
+        },
+        {
+          "en": "sense of humor",
+          "ar": "روح الدعابة"
+        },
+        {
+          "en": "septic wounds",
+          "ar": "جروح ملوثة"
+        },
+        {
+          "en": "series",
+          "ar": "سلسلة"
+        },
+        {
+          "en": "serious",
+          "ar": "خطير / جاد"
+        },
+        {
+          "en": "serious turn",
+          "ar": "منحنى خطير"
+        },
+        {
+          "en": "serve",
+          "ar": "يخدم"
+        },
+        {
+          "en": "service",
+          "ar": "خدمة"
+        },
+        {
+          "en": "services",
+          "ar": "خدمات"
+        },
+        {
+          "en": "set",
+          "ar": "جهاز (تلفزيون / راديو)"
+        },
+        {
+          "en": "set free",
+          "ar": "يحرر"
+        },
+        {
+          "en": "set the table",
+          "ar": "يعد المائدة"
+        },
+        {
+          "en": "setback",
+          "ar": "انتكاسة"
+        },
+        {
+          "en": "settle disputes",
+          "ar": "تسوية الخلافات"
+        },
+        {
+          "en": "severe shortage",
+          "ar": "نقص حاد"
+        },
+        {
+          "en": "sewage",
+          "ar": "الصرف الصحى"
+        },
+        {
+          "en": "share = take part in",
+          "ar": "مشاركة / يشارك"
+        },
+        {
+          "en": "shelter",
+          "ar": "ملجاء / مأوى"
+        },
+        {
+          "en": "shock",
+          "ar": "صدمة"
+        },
+        {
+          "en": "shop window",
+          "ar": "واجهة المحل"
+        },
+        {
+          "en": "shopping malls",
+          "ar": "مراكز تجارية"
+        },
+        {
+          "en": "shyness and shame",
+          "ar": "العار والخجل"
+        },
+        {
+          "en": "scarce (2)",
+          "ar": "نادر"
+        },
+        {
+          "en": "scenery (2)",
+          "ar": "منظر طبيعى"
+        },
+        {
+          "en": "side by side",
+          "ar": "جنبًا إلى جنب"
+        },
+        {
+          "en": "side effects",
+          "ar": "آثار جانبية"
+        },
+        {
+          "en": "sight",
+          "ar": "البصر"
+        },
+        {
+          "en": "signals",
+          "ar": "إشارات"
+        },
+        {
+          "en": "simultaneously",
+          "ar": "معًا / بالتزامن"
+        },
+        {
+          "en": "sit-ins",
+          "ar": "الإعتصامات"
+        },
+        {
+          "en": "skip lunch",
+          "ar": "يفوته الغدء"
+        },
+        {
+          "en": "skyscrapers",
+          "ar": "ناطحات السحاب"
+        },
+        {
+          "en": "slight rise",
+          "ar": "ارتفاع طفيف"
+        },
+        {
+          "en": "slogan",
+          "ar": "شعار"
+        },
+        {
+          "en": "slums",
+          "ar": "عشوائيات"
+        },
+        {
+          "en": "smells good",
+          "ar": "ذو رائحة ذكية"
+        },
+        {
+          "en": "smuggle",
+          "ar": "يهرب"
+        },
+        {
+          "en": "snack",
+          "ar": "وجبة خفيفة"
+        },
+        {
+          "en": "social",
+          "ar": "اجتماعي"
+        },
+        {
+          "en": "social fund for",
+          "ar": "الصندوق الإجتماعي"
+        },
+        {
+          "en": "social position",
+          "ar": "مكانة اجتماعية"
+        },
+        {
+          "en": "social services",
+          "ar": "خدمات اجتماعية"
+        },
+        {
+          "en": "social settlement",
+          "ar": "الإستقرار الإجتماعي"
+        },
+        {
+          "en": "society",
+          "ar": "مجتمع"
+        },
+        {
+          "en": "solar energy",
+          "ar": "الطاقة الشمسية"
+        },
+        {
+          "en": "solar system",
+          "ar": "النظام الشمسى"
+        },
+        {
+          "en": "solidarity",
+          "ar": "تماسك / تضامن"
+        },
+        {
+          "en": "solution",
+          "ar": "حل"
+        },
+        {
+          "en": "solve",
+          "ar": "يحل"
+        },
+        {
+          "en": "sooner or later",
+          "ar": "عاجلًا أم آجلًا"
+        },
+        {
+          "en": "sorrow",
+          "ar": "الحزن"
+        },
+        {
+          "en": "sound and picture",
+          "ar": "الصوت والصورة"
+        },
+        {
+          "en": "sound body",
+          "ar": "الجسم السليم"
+        },
+        {
+          "en": "sound mind",
+          "ar": "العقل السليم"
+        },
+        {
+          "en": "source",
+          "ar": "مصدر"
+        },
+        {
+          "en": "source of life",
+          "ar": "مصدر الحياة"
+        },
+        {
+          "en": "spare no effort to",
+          "ar": "لا يدخر وسعًا أن"
+        },
+        {
+          "en": "spare time = leisure time",
+          "ar": "وقت فراغ"
+        },
+        {
+          "en": "special needs",
+          "ar": "احتياجات خاصة"
+        },
+        {
+          "en": "specialist",
+          "ar": "متخصص"
+        },
+        {
+          "en": "spiritual values",
+          "ar": "القيم الروحية"
+        },
+        {
+          "en": "splendid",
+          "ar": "رائع / باهر"
+        },
+        {
+          "en": "spoil",
+          "ar": "تفسد"
+        },
+        {
+          "en": "sponsor",
+          "ar": "يرعى / يكفل / راعٍ / كفيل"
+        },
+        {
+          "en": "spread",
+          "ar": "تنشر / نشر"
+        },
+        {
+          "en": "spread peace",
+          "ar": "ينشر السلام"
+        },
+        {
+          "en": "stability",
+          "ar": "استقرار"
+        },
+        {
+          "en": "staff",
+          "ar": "هيئة تدريس"
+        },
+        {
+          "en": "stage",
+          "ar": "مرحلة"
+        },
+        {
+          "en": "stamina",
+          "ar": "قوة الإحتمال"
+        },
+        {
+          "en": "stand as a one man",
+          "ar": "نقف كرجل واحد"
+        },
+        {
+          "en": "stand by",
+          "ar": "يقف بجانب"
+        },
+        {
+          "en": "stand for",
+          "ar": "ترمز لـ"
+        },
+        {
+          "en": "standard of living",
+          "ar": "مستوى المعيشة"
+        },
+        {
+          "en": "state",
+          "ar": "دولة / يعلن / يصرح"
+        },
+        {
+          "en": "state security forces",
+          "ar": "قوات أمن الدولة"
+        },
+        {
+          "en": "stay in bed",
+          "ar": "يلزم الفراش"
+        },
+        {
+          "en": "stay up",
+          "ar": "يسهر"
+        },
+        {
+          "en": "step by step",
+          "ar": "خطوة بخطوة"
+        },
+        {
+          "en": "stick to",
+          "ar": "يلتزم بـ / يتمسك بـ"
+        },
+        {
+          "en": "stock exchange",
+          "ar": "البورصة"
+        },
+        {
+          "en": "stomach trouble",
+          "ar": "اضطراب بالمعدة"
+        },
+        {
+          "en": "stomach upsets",
+          "ar": "اضطراب بالمعدة"
+        },
+        {
+          "en": "stop bleeding",
+          "ar": "يوقف النزيف"
+        },
+        {
+          "en": "stray dogs",
+          "ar": "الكلاب الضالة"
+        },
+        {
+          "en": "street pulse",
+          "ar": "نبض الشارع"
+        },
+        {
+          "en": "stress",
+          "ar": "الإجهاد / يؤكد على"
+        },
+        {
+          "en": "strike /striker",
+          "ar": "إضراب / مُضرب / مهاجم"
+        },
+        {
+          "en": "string",
+          "ar": "خيط"
+        },
+        {
+          "en": "strong ties",
+          "ar": "روابط قوية / أواصر قوية"
+        },
+        {
+          "en": "strong will",
+          "ar": "إرادة قوية"
+        },
+        {
+          "en": "struggle",
+          "ar": "يناضل / يكافح / نضال"
+        },
+        {
+          "en": "students' union",
+          "ar": "اتحاد الطلاب"
+        },
+        {
+          "en": "subheadings",
+          "ar": "عناوين فرعية"
+        },
+        {
+          "en": "submit",
+          "ar": "يبث"
+        },
+        {
+          "en": "substance",
+          "ar": "مادة"
+        },
+        {
+          "en": "subtle",
+          "ar": "دقيق"
+        },
+        {
+          "en": "sue -sued -sued",
+          "ar": "يقاضى"
+        },
+        {
+          "en": "suffer from",
+          "ar": "يعاني من"
+        },
+        {
+          "en": "suffering",
+          "ar": "معاناة"
+        },
+        {
+          "en": "suicidal action",
+          "ar": "عمل انتحارى"
+        },
+        {
+          "en": "summit",
+          "ar": "قمة"
+        },
+        {
+          "en": "sunburn",
+          "ar": "حروق الشمس"
+        },
+        {
+          "en": "superstition",
+          "ar": "الخرافة"
+        },
+        {
+          "en": "supplies",
+          "ar": "إمدادات / تموين / ذخيرة"
+        },
+        {
+          "en": "supply and demand",
+          "ar": "العرض والطلب"
+        },
+        {
+          "en": "support",
+          "ar": "يدعم / يساند / دعم / تأييد"
+        },
+        {
+          "en": "supreme",
+          "ar": "سامي / أعلى"
+        },
+        {
+          "en": "surgery",
+          "ar": "جراحة"
+        },
+        {
+          "en": "surrounded by",
+          "ar": "محاط بـ"
+        },
+        {
+          "en": "surroundings",
+          "ar": "بيئة محيطة"
+        },
+        {
+          "en": "suspect",
+          "ar": "يشك"
+        },
+        {
+          "en": "suspicious",
+          "ar": "شك / ظن"
+        },
+        {
+          "en": "symptoms",
+          "ar": "أعراض"
+        }
+      ]
+    }
+  ]
+}

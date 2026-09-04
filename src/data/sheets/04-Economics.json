@@ -1,0 +1,316 @@
+{
+  "id": "04-Economics",
+  "title": "④ Economics",
+  "source": "Toppers Dictionary Part 1",
+  "categories": [
+    {
+      "category": "④ Economics",
+      "words": [
+        {
+          "en": "accountant",
+          "ar": "محاسب"
+        },
+        {
+          "en": "accounts",
+          "ar": "حسابات"
+        },
+        {
+          "en": "adjustment",
+          "ar": "تسوية"
+        },
+        {
+          "en": "assets",
+          "ar": "سندات"
+        },
+        {
+          "en": "auction",
+          "ar": "مزاد"
+        },
+        {
+          "en": "auctioneer",
+          "ar": "منادى المزاد"
+        },
+        {
+          "en": "balances",
+          "ar": "موازنات"
+        },
+        {
+          "en": "bankrupt",
+          "ar": "مفلس"
+        },
+        {
+          "en": "bankruptcy",
+          "ar": "إفلاس"
+        },
+        {
+          "en": "bargains",
+          "ar": "صفقات"
+        },
+        {
+          "en": "brand",
+          "ar": "ماركة"
+        },
+        {
+          "en": "budget",
+          "ar": "ميزانية"
+        },
+        {
+          "en": "capital gains or loses",
+          "ar": "أرباح أو خسائر رأسمالية"
+        },
+        {
+          "en": "capital",
+          "ar": "رأس المال"
+        },
+        {
+          "en": "capitalism",
+          "ar": "رأسمالية"
+        },
+        {
+          "en": "clients",
+          "ar": "عملاء"
+        },
+        {
+          "en": "commerce",
+          "ar": "تجارة"
+        },
+        {
+          "en": "commercial",
+          "ar": "تجارى"
+        },
+        {
+          "en": "consume",
+          "ar": "يستهلك"
+        },
+        {
+          "en": "consumer",
+          "ar": "مستهلك"
+        },
+        {
+          "en": "consumption",
+          "ar": "استهلاك"
+        },
+        {
+          "en": "corporation",
+          "ar": "شركة"
+        },
+        {
+          "en": "customers",
+          "ar": "زبائن"
+        },
+        {
+          "en": "dealers",
+          "ar": "وكلاء / عملاء"
+        },
+        {
+          "en": "debtors",
+          "ar": "مدينون"
+        },
+        {
+          "en": "decline",
+          "ar": "يقل / ينحدر"
+        },
+        {
+          "en": "discount",
+          "ar": "تخفيض"
+        },
+        {
+          "en": "economic",
+          "ar": "إقتصادى"
+        },
+        {
+          "en": "economical",
+          "ar": "موفر / مقتصد"
+        },
+        {
+          "en": "economics",
+          "ar": "علم الإقتصاد"
+        },
+        {
+          "en": "economy",
+          "ar": "إقتصاد"
+        },
+        {
+          "en": "employees",
+          "ar": "موظفون"
+        },
+        {
+          "en": "expenses",
+          "ar": "نفقات"
+        },
+        {
+          "en": "finance",
+          "ar": "مال"
+        },
+        {
+          "en": "financial",
+          "ar": "مالى"
+        },
+        {
+          "en": "fire = dismiss",
+          "ar": "يطرد/ يفصل من العمل"
+        },
+        {
+          "en": "for sale",
+          "ar": "للبيع"
+        },
+        {
+          "en": "goods",
+          "ar": "بضائع"
+        },
+        {
+          "en": "gross profit",
+          "ar": "إجمالى الربح"
+        },
+        {
+          "en": "handmade",
+          "ar": "صناعة يدوية"
+        },
+        {
+          "en": "hard currency",
+          "ar": "عملة صعبة"
+        },
+        {
+          "en": "hypermarket",
+          "ar": "سوبر ماركت شامل"
+        },
+        {
+          "en": "insurance",
+          "ar": "تأمين"
+        },
+        {
+          "en": "investment",
+          "ar": "إستثمار"
+        },
+        {
+          "en": "investor",
+          "ar": "مستثمر"
+        },
+        {
+          "en": "items",
+          "ar": "سلع"
+        },
+        {
+          "en": "junk food",
+          "ar": "طعام سريع"
+        },
+        {
+          "en": "labour force",
+          "ar": "القوى العاملة"
+        },
+        {
+          "en": "long-term",
+          "ar": "طويل الأجل"
+        },
+        {
+          "en": "manufacture",
+          "ar": "يصنع"
+        },
+        {
+          "en": "manufacturer",
+          "ar": "مُصَنِّع"
+        },
+        {
+          "en": "marketing",
+          "ar": "تسويق"
+        },
+        {
+          "en": "merchandise",
+          "ar": "بضاعة"
+        },
+        {
+          "en": "monopolist",
+          "ar": "محتكر"
+        },
+        {
+          "en": "monopoly",
+          "ar": "احتكار"
+        },
+        {
+          "en": "national income",
+          "ar": "الدخل القومى"
+        },
+        {
+          "en": "nationalization",
+          "ar": "تأميم"
+        },
+        {
+          "en": "network marketing",
+          "ar": "تسويق شبكى"
+        },
+        {
+          "en": "patent",
+          "ar": "براءة اختراع"
+        },
+        {
+          "en": "prices",
+          "ar": "أسعار"
+        },
+        {
+          "en": "profits",
+          "ar": "أرباح"
+        },
+        {
+          "en": "purchase",
+          "ar": "يتاجر"
+        },
+        {
+          "en": "purchaser",
+          "ar": "تاجر"
+        },
+        {
+          "en": "rationalization",
+          "ar": "ترشيد"
+        },
+        {
+          "en": "recycling",
+          "ar": "إعادة تصنيع"
+        },
+        {
+          "en": "reduction",
+          "ar": "تخفيض"
+        },
+        {
+          "en": "renaissance",
+          "ar": "نهضة"
+        },
+        {
+          "en": "revenues",
+          "ar": "عوائد"
+        },
+        {
+          "en": "sales",
+          "ar": "مبيعات / تخفيضات"
+        },
+        {
+          "en": "second hand",
+          "ar": "مستعمل"
+        },
+        {
+          "en": "shares",
+          "ar": "أسهم"
+        },
+        {
+          "en": "short-term",
+          "ar": "قصير الأجل"
+        },
+        {
+          "en": "statistics",
+          "ar": "إحصائيات"
+        },
+        {
+          "en": "stock market",
+          "ar": "بورصة"
+        },
+        {
+          "en": "taxes",
+          "ar": "ضرائب"
+        },
+        {
+          "en": "trade",
+          "ar": "تجارة/ يتاجر"
+        }
+      ]
+    }
+  ]
+}

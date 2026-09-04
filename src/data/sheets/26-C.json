@@ -1,0 +1,624 @@
+{
+  "id": "26-C",
+  "title": "C",
+  "source": "Toppers Dictionary Part 2",
+  "categories": [
+    {
+      "category": "C",
+      "words": [
+        {
+          "en": "call",
+          "ar": "دعوة"
+        },
+        {
+          "en": "call for",
+          "ar": "يدعو أو ينادى من أجل"
+        },
+        {
+          "en": "call for help",
+          "ar": "يستغيث"
+        },
+        {
+          "en": "camp",
+          "ar": "يعسكر / معسكر"
+        },
+        {
+          "en": "campaign",
+          "ar": "حملة / يدير حملة"
+        },
+        {
+          "en": "campus",
+          "ar": "حرم الجامعة"
+        },
+        {
+          "en": "can't be regained",
+          "ar": "لايمكن استرداده"
+        },
+        {
+          "en": "candid",
+          "ar": "صريح / غير متحيز / نزيه"
+        },
+        {
+          "en": "candidate",
+          "ar": "مرشح"
+        },
+        {
+          "en": "care for",
+          "ar": "تهتم بـ"
+        },
+        {
+          "en": "career",
+          "ar": "مهنة"
+        },
+        {
+          "en": "career (work)",
+          "ar": "مهنة / عمل"
+        },
+        {
+          "en": "carelessness",
+          "ar": "الإهمال"
+        },
+        {
+          "en": "caretaker government",
+          "ar": "حكومة انتقالية"
+        },
+        {
+          "en": "carry out",
+          "ar": "ينفذ"
+        },
+        {
+          "en": "cars factory",
+          "ar": "مصنع سيارات"
+        },
+        {
+          "en": "case",
+          "ar": "يراقب"
+        },
+        {
+          "en": "case / issue",
+          "ar": "قضية / حالة"
+        },
+        {
+          "en": "cast his vote",
+          "ar": "يدلي بصوته"
+        },
+        {
+          "en": "catch up with",
+          "ar": "يساير / يواكب / يجارى"
+        },
+        {
+          "en": "catching cancer",
+          "ar": "الإصابة بالسرطان"
+        },
+        {
+          "en": "celebrate",
+          "ar": "يحتفل"
+        },
+        {
+          "en": "celebration",
+          "ar": "احتفال"
+        },
+        {
+          "en": "cell",
+          "ar": "خلية"
+        },
+        {
+          "en": "central security",
+          "ar": "قوات الأمن المركزى"
+        },
+        {
+          "en": "ceremony",
+          "ar": "مراسم"
+        },
+        {
+          "en": "certificate",
+          "ar": "شهادة"
+        },
+        {
+          "en": "challenges",
+          "ar": "تحديات"
+        },
+        {
+          "en": "chance",
+          "ar": "فرصة"
+        },
+        {
+          "en": "charge",
+          "ar": "تهمة"
+        },
+        {
+          "en": "charity",
+          "ar": "جمعية خيرية"
+        },
+        {
+          "en": "charlatanism",
+          "ar": "الدجل"
+        },
+        {
+          "en": "chemist",
+          "ar": "صيدلى"
+        },
+        {
+          "en": "chemist's = pharmacy",
+          "ar": "صيدلية"
+        },
+        {
+          "en": "childhood",
+          "ar": "الطفولة"
+        },
+        {
+          "en": "children with disabilities",
+          "ar": "أطفال معاقون"
+        },
+        {
+          "en": "children workers",
+          "ar": "عمالة الأطفال"
+        },
+        {
+          "en": "chill",
+          "ar": "إحساس بالبرد"
+        },
+        {
+          "en": "citizen",
+          "ar": "مواطن"
+        },
+        {
+          "en": "citizenship",
+          "ar": "مواطنة"
+        },
+        {
+          "en": "civil defence",
+          "ar": "الدفاع المدنى"
+        },
+        {
+          "en": "civil disobedience",
+          "ar": "عصيان مدنى"
+        },
+        {
+          "en": "civil societies",
+          "ar": "الجمعيات الأهلية"
+        },
+        {
+          "en": "civil war",
+          "ar": "حرب أهلية"
+        },
+        {
+          "en": "civilization",
+          "ar": "الحضارة"
+        },
+        {
+          "en": "civilized person",
+          "ar": "شخص متحضر"
+        },
+        {
+          "en": "classify",
+          "ar": "يصنف"
+        },
+        {
+          "en": "clear",
+          "ar": "واضح"
+        },
+        {
+          "en": "climate changes",
+          "ar": "تغيرات مناخية"
+        },
+        {
+          "en": "clinging",
+          "ar": "اعتصام / تشبث"
+        },
+        {
+          "en": "clinic",
+          "ar": "عيادة"
+        },
+        {
+          "en": "cloning",
+          "ar": "الإستنساخ"
+        },
+        {
+          "en": "close to",
+          "ar": "قريب من"
+        },
+        {
+          "en": "cold war",
+          "ar": "الحرب الباردة"
+        },
+        {
+          "en": "collapse",
+          "ar": "ينهار"
+        },
+        {
+          "en": "colleague",
+          "ar": "زميل عمل"
+        },
+        {
+          "en": "combating",
+          "ar": "مكافحة"
+        },
+        {
+          "en": "commence = start",
+          "ar": "يبدأ"
+        },
+        {
+          "en": "commit (a crime)",
+          "ar": "يرتكب (جريمة)"
+        },
+        {
+          "en": "committee",
+          "ar": "لجنة"
+        },
+        {
+          "en": "common good",
+          "ar": "الصالح العام"
+        },
+        {
+          "en": "common property",
+          "ar": "ملكية مشتركة"
+        },
+        {
+          "en": "common responsibility",
+          "ar": "مسئولية مشتركة"
+        },
+        {
+          "en": "communicate with",
+          "ar": "يتواصل مع"
+        },
+        {
+          "en": "communication",
+          "ar": "الإتصال"
+        },
+        {
+          "en": "communism",
+          "ar": "شيوعية"
+        },
+        {
+          "en": "communist",
+          "ar": "شيوعى"
+        },
+        {
+          "en": "communities",
+          "ar": "مجتمعات"
+        },
+        {
+          "en": "compared to",
+          "ar": "بالمقارنة بـ"
+        },
+        {
+          "en": "compete",
+          "ar": "ينافس"
+        },
+        {
+          "en": "competition",
+          "ar": "منافسة"
+        },
+        {
+          "en": "competitive",
+          "ar": "منافس"
+        },
+        {
+          "en": "complain",
+          "ar": "يشكو"
+        },
+        {
+          "en": "complaint",
+          "ar": "شكوى"
+        },
+        {
+          "en": "components",
+          "ar": "مكونات"
+        },
+        {
+          "en": "comprehensive",
+          "ar": "شامل"
+        },
+        {
+          "en": "compromises",
+          "ar": "تسويات"
+        },
+        {
+          "en": "concentrating on",
+          "ar": "التركيز على"
+        },
+        {
+          "en": "conclusion",
+          "ar": "خاتمة"
+        },
+        {
+          "en": "condemn",
+          "ar": "يدين / يستنكر"
+        },
+        {
+          "en": "condensed",
+          "ar": "مكثفة"
+        },
+        {
+          "en": "condition",
+          "ar": "قضية"
+        },
+        {
+          "en": "conference",
+          "ar": "مؤتمر"
+        },
+        {
+          "en": "confirm",
+          "ar": "يؤكد"
+        },
+        {
+          "en": "confirmation",
+          "ar": "تأكيد"
+        },
+        {
+          "en": "conflict",
+          "ar": "صراع"
+        },
+        {
+          "en": "confuse",
+          "ar": "يرتبك"
+        },
+        {
+          "en": "confused",
+          "ar": "مرتبك"
+        },
+        {
+          "en": "confusion",
+          "ar": "ارتباك"
+        },
+        {
+          "en": "congestion",
+          "ar": "التكدس"
+        },
+        {
+          "en": "connection",
+          "ar": "اتصال"
+        },
+        {
+          "en": "connect to",
+          "ar": "يتصل بـ"
+        },
+        {
+          "en": "conniving",
+          "ar": "متآمر / متواطىء"
+        },
+        {
+          "en": "conquering desert",
+          "ar": "غزو الصحراء"
+        },
+        {
+          "en": "conquest",
+          "ar": "غزو / فتح / احتلال"
+        },
+        {
+          "en": "consequences",
+          "ar": "عواقب / نتائج"
+        },
+        {
+          "en": "conserve",
+          "ar": "يحافظ / يصون"
+        },
+        {
+          "en": "conserve the environment",
+          "ar": "يحافظ على البيئة"
+        },
+        {
+          "en": "consider",
+          "ar": "يعتبر"
+        },
+        {
+          "en": "considerable",
+          "ar": "مهم / جدير بالاعتبار"
+        },
+        {
+          "en": "consideration",
+          "ar": "اعتبار"
+        },
+        {
+          "en": "constitution",
+          "ar": "الدستور"
+        },
+        {
+          "en": "constitution drafting",
+          "ar": "صياغة الدستور"
+        },
+        {
+          "en": "constitutional legitimacy",
+          "ar": "شرعية دستورية"
+        },
+        {
+          "en": "construct",
+          "ar": "يعمر / يشيد"
+        },
+        {
+          "en": "construction",
+          "ar": "البناء"
+        },
+        {
+          "en": "constructive (adj)",
+          "ar": "بنّاء"
+        },
+        {
+          "en": "consult",
+          "ar": "يستشير"
+        },
+        {
+          "en": "consume",
+          "ar": "يستهلك"
+        },
+        {
+          "en": "consumer",
+          "ar": "مستهلك"
+        },
+        {
+          "en": "consumption",
+          "ar": "الإستهلاك"
+        },
+        {
+          "en": "continent",
+          "ar": "قارّة"
+        },
+        {
+          "en": "contribute to",
+          "ar": "يشارك / يساهم في"
+        },
+        {
+          "en": "contributive to",
+          "ar": "مساهم"
+        },
+        {
+          "en": "contribution",
+          "ar": "مساهمة"
+        },
+        {
+          "en": "contributions",
+          "ar": "اسهامات"
+        },
+        {
+          "en": "co-operate",
+          "ar": "يتعاون"
+        },
+        {
+          "en": "co-operation",
+          "ar": "تعاون"
+        },
+        {
+          "en": "co-ordinate",
+          "ar": "ينظم / ينسّق"
+        },
+        {
+          "en": "co-ordination",
+          "ar": "تنظيم / تنسيق"
+        },
+        {
+          "en": "cope with = catch up with",
+          "ar": "يساير"
+        },
+        {
+          "en": "coral reefs",
+          "ar": "الشعب المرجانية"
+        },
+        {
+          "en": "cornerstone",
+          "ar": "حجر الأساس"
+        },
+        {
+          "en": "corruption",
+          "ar": "فساد"
+        },
+        {
+          "en": "courage = bravery",
+          "ar": "شجاعة"
+        },
+        {
+          "en": "course",
+          "ar": "مسار / دورة"
+        },
+        {
+          "en": "court",
+          "ar": "محكمة"
+        },
+        {
+          "en": "court martial",
+          "ar": "مجلس عسكرى"
+        },
+        {
+          "en": "cradle of civilization",
+          "ar": "مهد الحضارة"
+        },
+        {
+          "en": "create",
+          "ar": "يخلق"
+        },
+        {
+          "en": "creation",
+          "ar": "خلق / إبداع"
+        },
+        {
+          "en": "Creator",
+          "ar": "الخالق"
+        },
+        {
+          "en": "creature",
+          "ar": "مخلوق"
+        },
+        {
+          "en": "crime",
+          "ar": "جريمة"
+        },
+        {
+          "en": "criminal",
+          "ar": "مجرم"
+        },
+        {
+          "en": "crisis",
+          "ar": "أزمة"
+        },
+        {
+          "en": "critic",
+          "ar": "ناقد"
+        },
+        {
+          "en": "critical",
+          "ar": "نقدى / حرج"
+        },
+        {
+          "en": "critical stage",
+          "ar": "مرحلة حرجة"
+        },
+        {
+          "en": "criticism",
+          "ar": "النقد"
+        },
+        {
+          "en": "crossroads",
+          "ar": "ملتقي الطرق"
+        },
+        {
+          "en": "cruel = violent",
+          "ar": "قاسٍ"
+        },
+        {
+          "en": "cruelty",
+          "ar": "قسوة"
+        },
+        {
+          "en": "crusaders",
+          "ar": "الصليبيون"
+        },
+        {
+          "en": "cultivation",
+          "ar": "زراعة"
+        },
+        {
+          "en": "cultural",
+          "ar": "ثقافي"
+        },
+        {
+          "en": "cultural event",
+          "ar": "حدث ثقافي"
+        },
+        {
+          "en": "culture",
+          "ar": "الثقافة"
+        },
+        {
+          "en": "cure",
+          "ar": "يعالج"
+        },
+        {
+          "en": "curfew",
+          "ar": "حظر التجوال"
+        },
+        {
+          "en": "curriculum",
+          "ar": "المنهج الدراسي"
+        },
+        {
+          "en": "curse",
+          "ar": "نقمة / لعنة"
+        },
+        {
+          "en": "customs and traditions",
+          "ar": "العادات والتقاليد"
+        }
+      ]
+    }
+  ]
+}
